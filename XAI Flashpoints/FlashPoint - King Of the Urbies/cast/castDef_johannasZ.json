@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_johannasZ",
+    "internalName" : "johannasZ",
+    "firstName" : "Johannas",
+    "lastName" : "Zhao",
+    "callsign" : "Crunch",
+    "rank" : "",
+    "gender" : "Male",
+    "factionID" : "NewFlakJackals",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/FlashPoint - King Of the Urbies/sprites/Portraits/guiTrxPort_JZhao_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}
