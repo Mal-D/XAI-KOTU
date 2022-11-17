@@ -1157,7 +1157,7 @@
                         "customUnitName" : "The Boss",
                         "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mackie_MSK-10",
+                        "unitDefId" : "mechdef_mackie_MSK-10X",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
