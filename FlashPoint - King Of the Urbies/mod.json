@@ -1,7 +1,7 @@
 {
-    "Name": "FlashPoint_kingOfTheUrbies",
+    "Name": "FlashPoint_KOTU",
     "Enabled": true,
-	"Version": "2.0.1-PreRelease",
+	"Version": "1.0.1-PreRelease",
     "Author": "MalD",
 
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],

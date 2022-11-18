@@ -446,7 +446,7 @@
                 "EncounterObjectGuid" : "dafa63cd-96e8-4a03-8383-6abfd360bde8"
             },
             "name" : "Dialogue_Interrupt_KillConfirmedEscapeInstruction",
-            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_kingOfTheUrbies_a1_assassinate",
+            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_KOTU_a1_assassinate",
             "dialogueContent" : [
                 {
                     "words" : "DRT !! Commander.",
@@ -471,7 +471,7 @@
                 "EncounterObjectGuid" : "cbb7a848-5367-478a-82f2-256bb94080e6"
             },
             "name" : "Dialogue_AmbushDestroyed",
-            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_kingOfTheUrbies_a1_sup1_killed",
+            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_KOTU_a1_sup1_killed",
             "dialogueContent" : [
                 {
                     "words" : "Readings indicate the ambushing units are out of commission. I would have thought our employer would be pleased. Apparently not!",
@@ -496,7 +496,7 @@
                 "EncounterObjectGuid" : "cc82de54-d0b5-4227-bb23-dc845ea88833"
             },
             "name" : "Dialogue_TargetDamaged",
-            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_kingOfTheUrbies_a1_sup2_killed",
+            "overrideDialogueBucketId" : "DialogBucketDef_c_fp_KOTU_a1_sup2_killed",
             "dialogueContent" : [
                 {
                     "words" : "That is our target, sustain fire on that unit!",
