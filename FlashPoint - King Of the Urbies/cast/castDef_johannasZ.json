@@ -14,7 +14,7 @@
     "showLastName" : true,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../mods/FlashPoint - King Of the Urbies/sprites/Portraits/guiTrxPort_JZhao_utr.png"
+        "portraitAssetPath" : "../../mods/XAI Flashpoints/Flashpoint - King of the Urbies/sprites/Portraits/guiTrxPort_JZhao_utr.png"
     },
     "emotePotraitList" : [
         
