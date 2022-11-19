@@ -1,7 +1,7 @@
 {
     "Name": "FlashPoint_KOTU",
     "Enabled": true,
-	"Version": "1.0.1-PreRelease",
+	"Version": "XAI-KOTU-1.0.1-PreRelease",
     "Author": "MalD",
 
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
@@ -11,11 +11,10 @@
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
 	],
     "Manifest": [
-	{ "Type": "ChassisDef", "Path": "chassis" },
-	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "ChassisDef", "Path": "newChassis" },
+	{ "Type": "MechDef", "Path": "newMech" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
 	{ "Type": "SimGameStatDescDef", "Path": "simGameStatDesc", "AddToDB": true },	
-	{ "Type": "VehicleDef", "Path": "newVehicle", "AddToDB": true },	
 	{ "Type": "CastDef", "Path": "cast", "AddToDB": true },
 	{ "Type": "LanceDef" , "Path": "lances", "AddToDB": true },	
 	{ "Type": "ContractOverride", "Path": "contracts" },
@@ -26,7 +25,7 @@
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
 	{ "Type": "HeraldryDef", "Path": "heraldry" },
 	{ "Type": "PilotDef", "Path": "pilot" },
-	{ "Type": "BaseDescriptionDef", "Path": "lore" },
+	{ "Type": "BaseDescriptionDef", "Path": "fluff" },
 	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
