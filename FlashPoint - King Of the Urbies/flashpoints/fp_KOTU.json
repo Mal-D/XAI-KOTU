@@ -13,13 +13,11 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "items" : [],
+                "items" : ["flashpoint_headhunting_complete"],
                 "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
-                "items" : [
-                    "flashpoint_KOTU_complete"
-                ],
+                "items" : ["flashpoint_KOTU_complete"],
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
@@ -54,7 +52,7 @@
     "RewardCollectionID" : "itemCollection_MechParts_TaurianConcordat_rare",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "\u20AC30 Million REWARD! My Family has suffered the most egregious insult. The tumerity of it all! Our Family! A band of miscreants has defiled our most sacred inner sanctum. This must be addressed. Don't respond if you are expecting an easy score.",
+    "FlashpointShortDescription" : "\u20AC30 Million REWARD! My Family has suffered the most egregious insult. The tumerity of it all! <i>Our Family!</i> A band of miscreants has defiled our most sacred inner sanctum. This must be addressed. Don't respond if you are expecting an easy score.",
     "FlashpointDescriberCastDefId" : "castDef_magnusT",
     "Tags" : {
         "items" : [],
