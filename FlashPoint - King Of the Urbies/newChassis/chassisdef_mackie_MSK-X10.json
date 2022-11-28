@@ -19,18 +19,20 @@
         "Manufacturer": "", 
         "Model": "", 
         "UIName": "Mackie", 
-        "Id": "chassisdef_mackie_MSK-10X", 
+        "Id": "chassisdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "The MSK-10X is a rich man's folly. Most Houses got rid of their Mackies however, for a fee Skobel MechWorks kept a small stream of spares and engineering services availble for those who thought that bigger was better and could pay the price. What better way to stoke one's vanity than with a unique piece of Military hardware. And so the MSK-10X was born. It mounts two Snub nosed PPCs, an Autocannon/20 and backed up by the pair of Medium Lasers.", 
+        "Details": "Not much is know about this Mackie model as most of the records are spotty at best. But if the MSK-6S is the 'Original Mech', then this one is the 'Big Mac' because it sports the largest autocannon twenty and two large lasers with a Mech Load of cooling to fire them. Although slow it has the armor to take a pounding while it lumbers within range of its autocannon, then its game over for all but Assault class mechs.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
-    "VariantName": "MSK-10X", 
+    "VariantName": "MSK-X10", 
     "ChassisTags": {
-        "items": [], 
+        "items": [
+            "unit_mechtool"
+        ], 
         "tagSetSourceFile": ""
     }, 
-    "StockRole": "Pillbox", 
-    "YangsThoughts": "Not everything with an 'X' is cool, no matter how you dress it. It's still a pig of a 'Mech. At least someone had the brains to put a few more Heatsinks in it.", 
+    "StockRole": "Big Mac", 
+    "YangsThoughts": "This is a sight to behold, boss, it brings a tear to my eye. I wish it weren't so slow but we can up the cooling and targeting and use it for defensive drops.", 
     "MovementCapDefID": "movedef_mackie", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_mackie", 
