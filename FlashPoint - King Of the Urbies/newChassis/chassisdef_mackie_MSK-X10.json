@@ -13,7 +13,7 @@
         }
     ], 
     "Description": {
-        "Cost": 11777490, 
+        "Cost": 2355498, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -21,18 +21,10 @@
         "UIName": "Mackie", 
         "Id": "chassisdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is know about this Mackie model as most of the records are spotty at best. But if the MSK-6S is the 'Original Mech', then this one is the 'Big Mac' because it sports the largest autocannon twenty and two large lasers with a Mech Load of cooling to fire them. Although slow it has the armor to take a pounding while it lumbers within range of its autocannon, then its game over for all but Assault class mechs.", 
+        "Details": "Not much is known about this Mackie model. Skobel MechWorks has it listed by Model only 'X10'. No expense was spared with a Rotary AC5 and a pair of PPC to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
-    "VariantName": "MSK-X10", 
-    "ChassisTags": {
-        "items": [
-            "unit_mechtool"
-        ], 
-        "tagSetSourceFile": ""
-    }, 
-    "StockRole": "Big Mac", 
-    "YangsThoughts": "This is a sight to behold, boss, it brings a tear to my eye. I wish it weren't so slow but we can up the cooling and targeting and use it for defensive drops.", 
+    
     "MovementCapDefID": "movedef_mackie", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_mackie", 
@@ -221,5 +213,12 @@
             "y": 3, 
             "z": 0.5
         }
-    ]
+    ],
+    "VariantName": "MSK-X10", 
+    "ChassisTags": {
+        "items": [], 
+        "tagSetSourceFile": ""
+    }, 
+    "StockRole": "Ornamental", 
+    "YangsThoughts": "This is fancy toy for an insanely rich playboy who probably needs to compensate for something. As far as anyone knows, it has never been off the showroom floor. Don't stand still infront of this monster as it has the firepower and Double Heatsinks to make it hurt."
 }

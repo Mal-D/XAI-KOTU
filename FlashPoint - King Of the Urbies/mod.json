@@ -7,9 +7,7 @@
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
     "ConflictsWith": [],
-	"DataAddendumEntries":[ 
-        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
-	],
+	"DataAddendumEntries":[{ "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }],
     "Manifest": [
 	{ "Type": "ChassisDef", "Path": "newChassis" },
 	{ "Type": "MechDef", "Path": "newMech" },
@@ -25,12 +23,11 @@
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
 	{ "Type": "HeraldryDef", "Path": "heraldry" },
 	{ "Type": "PilotDef", "Path": "pilot" },
-	{ "Type": "BaseDescriptionDef", "Path": "fluff" },
+	{ "Type": "BaseDescriptionDef", "Path": "lore" },
 	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
 	{ "Type": "Sprite", "Path": "sprites" },
 	{ "Type": "Texture2D", "Path": "sprites" }
-	
     ]
 }

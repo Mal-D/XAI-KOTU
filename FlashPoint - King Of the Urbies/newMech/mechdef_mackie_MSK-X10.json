@@ -1,11 +1,4 @@
 {
-    "MechTags": {
-        "items": [
-            "unit_release", 
-            "unit_mechtool"
-        ], 
-        "tagSetSourceFile": ""
-    }, 
     "ChassisID": "chassisdef_mackie_MSK-X10", 
     "Description": {
         "Cost": 2355498, 
@@ -16,7 +9,7 @@
         "UIName": "Mackie MSK-X10", 
         "Id": "mechdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is know about this Mackie model as most of the records are spotty at best. But if the MSK-6S is the 'Original Mech', then this one is the 'Big Mac' because it sports the largest autocannon twenty and two large lasers with a Mech Load of cooling to fire them. Although slow it has the armor to take a pounding while it lumbers within range of its autocannon, then its game over for all but Assault class mechs.", 
+        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared with a Rotary AC5 and a pair of PPC to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
     "simGameMechPartCost": 2355498, 
@@ -102,6 +95,20 @@
             "AssignedRearArmor": 0
         }
     ], 
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_ready",
+            "unit_mech",
+            "unit_assault",
+            "unit_role_sniper",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
+            "BLACKLISTED"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
     "inventory": [
         {
             "MountedLocation": "LeftLeg", 

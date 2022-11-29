@@ -2,8 +2,7 @@
     "StartingMilestoneID" : "ms_fp_KOTU_001_Start",
     "Milestones" : [
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_001_Start",
+            "Description" : {"Id" : "ms_fp_KOTU_001_Start",
                 "Name" : "Start",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -61,8 +60,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_002_Talk",
+            "Description" : {"Id" : "ms_fp_KOTU_002_Talk",
                 "Name" : "Talk",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -122,8 +120,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_003_MissionSim",
+            "Description" : {"Id" : "ms_fp_KOTU_003_MissionSim",
                 "Name" : "Mission Sim",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -131,8 +128,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                { "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -189,8 +185,64 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
+                { "Scope" : "Company",
+                "Requirements" : {
                     "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [
+                            "fp_KOTU_continue_duel"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                },
+                "AddedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" : null,
+                "Actions" : [
+                    {
+                        "Type" : "Flashpoint_AddContract",
+                        "value" : "mapGeneral_gridLock_uTech",
+                        "valueConstant" : null,
+                        "additionalValues" : [
+                            "",
+                            "05d2e43d-2256-4f59-9cab-047493ff7680",
+                            "c_fp_kingOfUrbies_assassinate",
+                            "ToppletiffHoldings",
+                            "NewFlakJackals",
+                            "7",
+                            "ms_fp_KOTU_004_Talk",
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                        ]
+                    },
+                    {
+                        "Type" : "System_ForceDropshipRoom",
+                        "value" : "Contract",
+                        "valueConstant" : null,
+                        "additionalValues" : [
+                            "BaseFlashpoint"
+                        ]
+                    }
+                ],
+                "ForceEvents" : null,
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                },
+                { "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
