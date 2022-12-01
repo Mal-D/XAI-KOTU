@@ -1,6 +1,6 @@
 {
-  "ID": "c_fp_KOTU_SoloDuel_withZhou",
-  "contractName": "Final - Life Lesson",
+  "ID": "c_fp_KOTU_SoloDuel_Zhou",
+  "contractName": "Zhao's final Lesson",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 2,
   "difficultyUIModifier": 0,
@@ -11,30 +11,10 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "A rich {TEAM_EMP.FactionDef.Demonym} business man has requested that we show his arrogant step-son what real fighting feels like. We thought {COMPANY.CompanyName} could help us here. Don't hold back. This father wants to teach a real life lesson - especially for his {TEAM_TAR.FactionDef.Demonym} side of the family.",
-  "longDescription": "I have to hand it to this guy. At least he cares enough about his son to teach him a thing or two. Even if that means a knock on the head... or two.",
+  "shortDescription": "The <i>{TEAM_TAR.FactionDef.Demonym}</i> need to be taugh one final lesson. And {TEAM_EMP.FactionDef.Demonym} needs to see them brought to heel and have {COMPANY.CompanyName} cut the head off this particular snake.",
+  "longDescription": "With Johannas Zhao out of the running for the {TEAM_TAR.FactionDef.Demonym} leadership, there will be nothing to hold the {TEAM_TAR.FactionDef.Demonym} together. Poof! gone. ",
   "salvagePotential": 2,
-  "requirementList": [
-    {
-      "Scope": "StarSystem",
-      "RequirementTags": {
-        "items": [],
-        "tagSetSourceFile": ""
-      },
-      "ExclusionTags": {
-        "items": [],
-        "tagSetSourceFile": ""
-      },
-      "RequirementComparisons": [
-        {
-          "obj": "Employer.IsOwner",
-          "op": "Equal",
-          "val": 1,
-          "valueConstant": null
-        }
-      ]
-    }
-  ],
+  "requirementList": [],
   "OnContractSuccessResults": [
     {
         "Scope": "Company",
@@ -48,14 +28,7 @@
             "tagSetSourceFile": ""
         },
         "Stats": [],
-        "Actions": [
-            {
-                "Type": "Contract_IgnoreMissionResults",
-                "value": "",
-                "valueConstant": "",
-                "additionalValues": []
-            }
-        ],
+        "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
         "ResultDuration": 0
@@ -74,14 +47,7 @@
             "tagSetSourceFile": ""
         },
         "Stats": [],
-        "Actions": [
-            {
-                "Type": "Contract_IgnoreMissionResults",
-                "value": "",
-                "valueConstant": "",
-                "additionalValues": []
-            }
-        ],
+        "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
         "ResultDuration": 0
@@ -92,7 +58,7 @@
   "lanceMinTonnage": -1,
   "lanceMaxTonnage": -1,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [35, -1, -1, -1],
+  "mechMaxTonnages": [-1, -1, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -100,7 +66,7 @@
       "contractObjective": {
         "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
       },
-      "title": "Teach a life lesson",
+      "title": "Take the Pirate Down",
       "description": "",
       "isPrimary": true,
       "forPlayer": "Player1",
@@ -119,7 +85,7 @@
       "objective": {
         "EncounterObjectGuid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
       },
-      "title": "Destroy Arrogant Step-Son's Mech",
+      "title": "Destroy or Disable the Mackie",
       "description": "",
       "isPrimary": true,
       "OnSuccessResults" : [],
@@ -162,7 +128,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "There he is, Commander.",
+          "words": "There he is Commander. Good luck.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -178,14 +144,14 @@
           "revealRadius": -1
         },
         {
-          "words": "This might be a real easy job but it's a job all the same. Knock him about a bit then finish things up. His Dad will be happier than he'll be.",
+          "words": "Keep moving and get him hot. Even with all those HeatSinks he can still be made to overheat. Ammo still goes <i>BOOOM</i> no matter how big it is.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_YangDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -203,7 +169,23 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "He should get over his shock in a week or so, Commander. He might be sore for a bit longer.",
+          "words": "Commander, you have done it. The others are signaling their surrender.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "That should make Toppletiff much happier and our bank balance much healthier.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -228,7 +210,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That was unexpected, Commander. I don't think his Dad will pay up since we've just subjected him to a few years of bragging.",
+          "words": "That was unexpected, Commander. Maybe we should just let bygones be bygones and let him keep the Mackie?",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -253,14 +235,30 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "So you're the rubbish my father is sending to train against? Just like the other servants... pitiful.",
+          "words": "Please don't mark the paintwork - it took years to find the right artist.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_MC_ArrogantSon",
+          "selectedCastDefId": "castDef_henryT",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Don't worry simpleton it won't be your concern any longer. Come Commander, let's dance.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_johannasZ",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
@@ -387,10 +385,10 @@
         "lanceSpawner": {
           "EncounterObjectGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
         },
-        "name": "Lance_Enemy_Champion",
-        "lanceDefId": "Tagged",
+        "name": "Lance_Zhao_Mackie",
+        "lanceDefId": "Manual",
         "lanceTagSet": {
-          "items": ["lance_type_light", "lance_type_mech"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -409,10 +407,10 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
             },
-            "customUnitName": "Arrogant Step-Son",
+            "customUnitName": "Zhao's Mech",
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "mechdef_mackie_MSK-X10",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -425,7 +423,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_johannasZ",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"

@@ -212,12 +212,12 @@
                 "Actions" : [
                     {
                         "Type" : "Flashpoint_AddContract",
-                        "value" : "mapGeneral_gridLock_uTech",
+                        "value" : "mapStory_StoryEncounter9_vHigh",
                         "valueConstant" : null,
                         "additionalValues" : [
                             "",
-                            "05d2e43d-2256-4f59-9cab-047493ff7680",
-                            "c_fp_kingOfUrbies_assassinate",
+                            "d9b711ac-2a6b-4236-86a8-61762a08f1ef",
+                            "c_fp_KOTU_SoloDuel_Zhou",
                             "ToppletiffHoldings",
                             "NewFlakJackals",
                             "7",

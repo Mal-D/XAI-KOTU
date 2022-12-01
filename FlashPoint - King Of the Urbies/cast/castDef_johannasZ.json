@@ -3,7 +3,7 @@
     "internalName" : "johannasZ",
     "firstName" : "Johannas",
     "lastName" : "Zhao",
-    "callsign" : "Crunch",
+    "callsign" : "Senshi",
     "rank" : "",
     "gender" : "Male",
     "factionID" : "NewFlakJackals",
@@ -14,7 +14,7 @@
     "showLastName" : true,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../mods/XAI Flashpoints/Flashpoint - King of the Urbies/sprites/Portraits/guiTrxPort_johannasZ.png"
+        "portraitAssetPath" : "../../mods/XAI Flashpoints/Flashpoint - King of the Urbies/sprites/Portraits/guiTxrPort_johannasZ.png"
     },
     "emotePotraitList" : [
         

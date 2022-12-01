@@ -1,0 +1,23 @@
+{
+   "id" : "castDef_Computer",
+   "internalName" : "Computer",
+   "firstName" : "Com",
+   "lastName" : "Computer",
+   "callsign" : null,
+   "rank" : null,
+   "gender" : "None",
+   "factionID" : "NoFaction",
+   "sgCharType" : "UNSET",
+   "showRank" : false,
+   "showFirstName" : false,
+   "showCallsign" : false,
+   "showLastName" : true,
+   "localizeName" : true,
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../mods/XAI Flashpoints/Flashpoint - King of the Urbies/sprites/Portraits/guiTxrPort_Computer.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}
