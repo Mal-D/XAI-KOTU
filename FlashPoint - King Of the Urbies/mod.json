@@ -4,7 +4,7 @@
 	"Version": "XAI-KOTU-1.0.1-PreRelease",
     "Author": "MalD",
 
-	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations" ],
+	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations", "Mission Control" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
     "ConflictsWith": [],
 	"DataAddendumEntries":[{ "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }],

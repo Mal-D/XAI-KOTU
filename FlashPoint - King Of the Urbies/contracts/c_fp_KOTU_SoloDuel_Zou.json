@@ -11,7 +11,7 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "The <i>{TEAM_TAR.FactionDef.Demonym}</i> need to be taugh one final lesson. And {TEAM_EMP.FactionDef.Demonym} needs to see them brought to heel and have {COMPANY.CompanyName} cut the head off this particular snake.",
+  "shortDescription": "The <i>{TEAM_TAR.FactionDef.Demonym}</i> need to be taught one final lesson. And {TEAM_EMP.FactionDef.Demonym} needs to see them brought to heel and have {COMPANY.CompanyName} cut the head off this particular snake.",
   "longDescription": "With Johannas Zhao out of the running for the {TEAM_TAR.FactionDef.Demonym} leadership, there will be nothing to hold the {TEAM_TAR.FactionDef.Demonym} together. Poof! gone. ",
   "salvagePotential": 2,
   "requirementList": [],

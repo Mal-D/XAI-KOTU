@@ -1,0 +1,35 @@
+{
+	"ID": "c_fp_KOTU_SoloDuel_Zhou",
+	"RandomSpawns": {
+		"Enable": false
+	},
+	"HotDropProtection": {
+		"Enable": false
+	},
+	"AdditionalLances": {
+		"Enable": false,
+		"EnemyLanceCount": 0,
+		"EnemyLances": [],
+		"EnemyLanceObjectiveNames": [],
+		"UseDialogue": true,
+		"DialogueCastDefId": "castDef_johannasZ",
+		"Dialogue": "Vengance... sweet like honey, hard a rock and precious as Diamonds. It will be mine!",
+		"AllyLanceCount": 0,
+		"AllyLances": []
+	},
+	"ExtendedLances": {
+		"Enable": false,
+		"EnemyLanceSize": 0,
+		"AllyLanceSize": 0
+	},
+	"ExtendedBoundaries": {
+		"Enable": false,
+		"IncreaseBoundarySizeByPercentage": 0.1
+	},
+	"DynamicWithdraw": {
+		"Enable": false
+	},
+	"AdditionalPlayerMechs": {
+		"Enable": false
+	}
+}
