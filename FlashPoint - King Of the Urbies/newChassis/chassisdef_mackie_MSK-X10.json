@@ -13,7 +13,7 @@
         }
     ], 
     "Description": {
-        "Cost": 2355498, 
+        "Cost": 11777490, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -21,10 +21,18 @@
         "UIName": "Mackie", 
         "Id": "chassisdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is known about this Mackie model. Skobel MechWorks has it listed by Model only 'X10'. No expense was spared with a Rotary AC5 and a pair of PPC to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
+        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared with a Gause Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
-    
+    "VariantName": "MSK-X10", 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "StockRole": "Ornamental", 
+    "YangsThoughts": "This is fancy toy for an insanely rich playboy who probably needs to compensate for something. As far as anyone knows, it has never been off the showroom floor. Don't stand still infront of this monster as it has the firepower and Heatsinks to make it hurt.", 
     "MovementCapDefID": "movedef_mackie", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_mackie", 
@@ -213,12 +221,5 @@
             "y": 3, 
             "z": 0.5
         }
-    ],
-    "VariantName": "MSK-X10", 
-    "ChassisTags": {
-        "items": [], 
-        "tagSetSourceFile": ""
-    }, 
-    "StockRole": "Ornamental", 
-    "YangsThoughts": "This is fancy toy for an insanely rich playboy who probably needs to compensate for something. As far as anyone knows, it has never been off the showroom floor. Don't stand still infront of this monster as it has the firepower and Double Heatsinks to make it hurt."
+    ]
 }

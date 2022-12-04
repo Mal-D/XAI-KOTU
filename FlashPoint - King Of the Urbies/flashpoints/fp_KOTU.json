@@ -1,11 +1,11 @@
 {
     "Description" : {
         "Id" : "fp_KOTU",
-        "Name" : "King of the Urbies",
+        "Name" : "King of the Urbies...",
         "Details" : "A band of miscreants has defiled our most sacred inner sanctum. This must be addressed and we are offering a reward commensurate with the risks required. These jumped up so called 'New' jackals will pay for their audacity.",
         "Icon" : "uixTxrSpot_KOTU.png"
     },
-    "Weight" : 2000,
+    "Weight" : 100,
     "InternalName" : "KOTU",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 5,

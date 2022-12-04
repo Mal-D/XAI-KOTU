@@ -1,9 +1,9 @@
 {
 	"debug": false,
-	"enableSettingsHotReload ": true,
+	"enableSettingsHotReload ": false,
 	"markers": [
 		{
-			"useHmAnimation": true,
+			"useHmAnimation": false,
 			"flashpointPrefix": "fp_ScorpsNest",
 			"swapColour": true,
 			"keepAlpha": true,
@@ -93,7 +93,7 @@
 			"contractIds": []
 		   },
          {
-			"useHmAnimation": true,
+			"useHmAnimation": false,
 			"flashpointPrefix": "fp_KOTU",
 			"swapColour": true,
 			"keepAlpha": true,
