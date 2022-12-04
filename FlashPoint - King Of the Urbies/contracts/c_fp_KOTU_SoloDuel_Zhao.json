@@ -420,7 +420,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [],
+              "items": ["spawn_poorly_maintained_25"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilot_johannasZ",
