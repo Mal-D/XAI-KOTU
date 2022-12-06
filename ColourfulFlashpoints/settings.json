@@ -11,7 +11,7 @@
 			"autoDetectContracts": true,
 			"useContractColourOverride": true,
 			"innerCircle": {
-				"Colour": "#5f9ea0"
+				"Colour": "#EDC738"
 			},
 			"innerHmPulsing": {
 				"Colour": "#c9ffe5"
@@ -20,13 +20,13 @@
 				"Colour": "#8bbe1b"
 			},
 			"outerPulsing": {
-				"Colour": "#8bbe1b"
+				"Colour": "#EDC738"
 			},
 			"outerPulsingFill": {
-				"Colour": "#dfff00"
+				"Colour": "#EDC738"
 			},
 			"contractColour": {
-				"Colour": "#8bbe1b",
+				"Colour": "#8b951b",
 				"Alpha": 0.35
 			},
 			"contractIds": []

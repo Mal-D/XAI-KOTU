@@ -297,17 +297,15 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_004_Talk",
+            "Description" : { "Id" : "ms_fp_KOTU_004_Talk",
                 "Name" : "Talk",
-                "Details" : "flashpoint",
+                "Details" : "Company",
                 "Icon" : null
             },
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
