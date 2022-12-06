@@ -21,7 +21,7 @@
         "UIName": "Mackie", 
         "Id": "chassisdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared with a Gause Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
+        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared on the weapons with a Gauss Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
     "VariantName": "MSK-X10", 
@@ -32,7 +32,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Ornamental", 
-    "YangsThoughts": "This is fancy toy for an insanely rich playboy who probably needs to compensate for something. As far as anyone knows, it has never been off the showroom floor. Don't stand still infront of this monster as it has the firepower and Heatsinks to make it hurt.", 
+    "YangsThoughts": "As far as anyone knows, it has never been off the showroom floor. Interesting footnote - 'was never fully fitted for actual Combat'. I still wouldn't stand still infront of this monster as it still has considerable firepower.", 
     "MovementCapDefID": "movedef_mackie", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_mackie", 

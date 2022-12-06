@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_KOTU_assassinate",
-    "contractName" : "Death to the Usurper",
+    "contractName" : "Death to the Usurper...",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 5,
     "difficultyUIModifier" : 1,
@@ -67,7 +67,7 @@
                     "Requirements" : null,
                     "AddedTags" : {
                         "items" : [
-						"FP_Killed_SUP_1"
+						"fp_killedSup_1"
 						],
                         "tagSetSourceFile" : ""
                     },
@@ -107,7 +107,7 @@
                     "Requirements" : null,
                     "AddedTags" : {
                         "items" : [
-						"FP_Killed_SUP_2"
+						"fp_killedSup_2"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -149,7 +149,7 @@
                     "AddedTags" : {
                         "items" : 
 							[
-						"FP_Killed_Zhao"
+						"fp_killedZhao"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -1167,7 +1167,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : [],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_johannasZ",

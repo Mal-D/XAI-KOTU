@@ -9,8 +9,7 @@
             "unit_speed_low", 
             "unit_armor_high", 
             "BLACKLISTED", 
-            "unit_hot", 
-            "unit_mechtool"
+            "unit_hot"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -24,7 +23,7 @@
         "UIName": "Mackie MSK-X10", 
         "Id": "mechdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared with a Gause Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
+        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared on the weapons with a Gauss Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
         "Icon": "uixTxrIcon_mackie"
     }, 
     "simGameMechPartCost": 2355498, 

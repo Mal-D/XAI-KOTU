@@ -356,8 +356,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_005_RewardBranch",
+            "Description" : {"Id" : "ms_fp_KOTU_005_RewardBranch",
                 "Name" : "RewardBranch",
                 "Details" : "RewardBranch",
                 "Icon" : null
@@ -365,8 +364,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -402,8 +400,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -439,8 +436,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -482,8 +478,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_100_Complete",
+            "Description" : {"Id" : "ms_fp_KOTU_100_Complete",
                 "Name" : "Complete",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -491,8 +486,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -513,9 +507,9 @@
                     },
                     "RemovedTags" : {
                         "items" : [
-                            "FP_Killed_SUP_1",
-                            "FP_Killed_SUP_2",
-                            "FP_Killed_Zhao"
+                            "fp_killedSup_1",
+                            "fp_killedSup_2",
+                            "fp_killedZhao"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -541,8 +535,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_101_Reward",
+            "Description" : {"Id" : "ms_fp_KOTU_101_Reward",
                 "Name" : "Reward 1",
                 "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
                 "Icon" : null
@@ -550,8 +543,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -608,8 +600,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_200_Complete",
+            "Description" : {"Id" : "ms_fp_KOTU_200_Complete",
                 "Name" : "ms_fp_KOTU_200_Complete",
                 "Details" : "200_Complete",
                 "Icon" : null
@@ -617,8 +608,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -639,9 +629,9 @@
                     },
                     "RemovedTags" : {
                         "items" : [
-                            "FP_Killed_SUP_1",
-                            "FP_Killed_SUP_2",
-                            "FP_Killed_Zhao"
+                            "fp_killedSup_1",
+                            "fp_killedSup_2",
+                            "fp_killedZhao"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -667,8 +657,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_201_Reward",
+            "Description" : {"Id" : "ms_fp_KOTU_201_Reward",
                 "Name" : "201_Reward",
                 "Details" : "KOTU_201_Reward",
                 "Icon" : null
@@ -676,8 +665,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -734,8 +722,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_300_Complete",
+            "Description" : {"Id" : "ms_fp_KOTU_300_Complete",
                 "Name" : "KOTU_300_Complete",
                 "Details" : "KOTU_300_Complete",
                 "Icon" : null
@@ -743,8 +730,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
@@ -765,9 +751,9 @@
                     },
                     "RemovedTags" : {
                         "items" : [
-                            "FP_Killed_SUP_1",
-                            "FP_Killed_SUP_2",
-                            "FP_Killed_Zhao"
+                            "fp_killedSup_1",
+                            "fp_killedSup_2",
+                            "fp_killedZhao"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -793,8 +779,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_301_Reward",
+            "Description" : {"Id" : "ms_fp_KOTU_301_Reward",
                 "Name" : "KOTU_301_Reward",
                 "Details" : "KOTU_301_Reward",
                 "Icon" : null
@@ -802,8 +787,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {

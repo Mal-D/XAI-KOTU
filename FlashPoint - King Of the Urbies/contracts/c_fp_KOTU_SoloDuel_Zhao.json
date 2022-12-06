@@ -20,7 +20,7 @@
         "Scope": "Company",
         "Requirements": null,
         "AddedTags": {
-            "items": [],
+            "items": ["fp_mackieDestroyed"],
             "tagSetSourceFile": ""
         },
         "RemovedTags": {
@@ -57,7 +57,7 @@
   "maxNumberOfPlayerUnits": 1,
   "lanceMinTonnage": -1,
   "lanceMaxTonnage": -1,
-  "mechMinTonnages": [65, -1, -1, -1],
+  "mechMinTonnages": [-1, -1, -1, -1],
   "mechMaxTonnages": [-1, -1, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
@@ -144,7 +144,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Keep moving and get him hot. Even with all those HeatSinks he can still be made to overheat. Ammo still goes <i>BOOOM</i> no matter how big it is.",
+          "words": "There's an interesting manufacturers note in the Warbook entry - 'was never fully fitted for actual Combat'.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -152,6 +152,54 @@
             "a": 1
           },
           "selectedCastDefId": "castDef_YangDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Do you think Zhao knows that?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Oh I doubt it. What user actually reads the accompanying makers Manual, and especially not while stealing said equipment.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_YangDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Hit him hard Commander. I don't think Zhao knows the danger he's in.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -185,7 +233,71 @@
           "revealRadius": -1
         },
         {
-          "words": "That should make Toppletiff much happier and our bank balance much healthier.",
+          "words": "I don't think Toppletiff will be too happy about his 'Custom' 'Mech but, our bank balance will look much healthier.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "You... you thugs... do you know what you have done?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_henryT",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Probably saved your family from irrepairable policical fallout considering your 'Mech was not what they are concerned about.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "I will find you and I will extract reparations for the damage you have caused. My father won't be able to protect you.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_henryT",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Going back to issuing pointless duels, are we? (sigh)....",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -251,7 +363,39 @@
           "revealRadius": -1
         },
         {
-          "words": "Don't worry simpleton it won't be your concern any longer. Come Commander, let's dance.",
+          "words": "Don't worry <i>simpleton</i> it won't be your concern any longer. Come Commander, let's dance.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_johannasZ",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Are you sure you don't want to look at your Armo...",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_johannasZ",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Enough !! Prepare yourself.",
           "wordsColor": {
             "r": 1,
             "g": 1,
