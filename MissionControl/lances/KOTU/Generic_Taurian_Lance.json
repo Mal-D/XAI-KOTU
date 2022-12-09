@@ -1,0 +1,36 @@
+{
+	"lanceKey": "Generic_Taurian_Lance",
+	"lanceDefId": "Manual",
+	"lanceTagSet": {
+	  "items": []
+	},
+	"lanceExcludedTagSet": {
+	  "items": []
+	},
+	"spawnEffectTags": {
+	  "items": []
+	},
+	"lanceDifficultyAdjustment": 0,
+	"unitSpawnPointOverrideList": [
+	  {
+		"unitType": "Mech",
+		"unitDefId": "Tagged",
+		"unitTagSet": {"items": ["TaurianConcordat"]}
+	  },
+	  {
+		"unitType": "Mech",
+		"unitDefId": "Tagged",
+		"unitTagSet": {"items": ["TaurianConcordat"]}
+	  },
+	  {
+		"unitType": "Mech",
+		"unitDefId": "Tagged",
+		"unitTagSet": {"items": ["TaurianConcordat"]}
+	  },
+	  {
+		"unitType": "Mech",
+		"unitDefId": "Tagged",
+		"unitTagSet": {"items": ["TaurianConcordat"]}
+	  }
+	]
+}

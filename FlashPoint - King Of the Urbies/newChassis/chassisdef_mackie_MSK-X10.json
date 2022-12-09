@@ -21,7 +21,7 @@
         "UIName": "Mackie", 
         "Id": "chassisdef_mackie_MSK-X10", 
         "Name": "Mackie", 
-        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. No expense was spared on the weapons with a Gauss Rifle and a pair of PPCs to face off at long range and a pair of Medium and Small Pulse lasers to maximise the damage started by the big guns.", 
+        "Details": "Not much is known about this Mackie model except it has never been off the showroom floor. The Skobel MechWorks has it listed as 'Weapons Demonstration' model only. This one is fitted with XAICorps modified weapons meant only for experimentation.  ", 
         "Icon": "uixTxrIcon_mackie"
     }, 
     "VariantName": "MSK-X10", 
@@ -32,7 +32,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Ornamental", 
-    "YangsThoughts": "As far as anyone knows, it has never been off the showroom floor. Interesting footnote - 'was never fully fitted for actual Combat'. I still wouldn't stand still infront of this monster as it still has considerable firepower.", 
+    "YangsThoughts": "It's never been off the showroom floor and who would want to? Many Lasers with not enough heatsinks to use them, the largest AC Ultra but just enough ammo for one or two salvos and scant armor just for show,  who would be stupid enough to?  Manufacturer Warning - 'Not fully balanced for Combat'. I still wouldn't stand still in front of this monster.", 
     "MovementCapDefID": "movedef_mackie", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_mackie", 

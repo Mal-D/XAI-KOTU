@@ -183,8 +183,68 @@
             "title" : "Destroy Assassination Lance Hidden Objective",
             "description" : "Hidden Objective for AutoComplete, Destroy Assassination Lance",
             "isPrimary" : false,
-            "OnSuccessResults" : [],
-            "OnFailureResults" : [],
+            "OnSuccessResults" : 
+            [
+				{
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : 
+							[
+						"fp_killedZhao"
+							],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "ContractBonusRewardPct",
+                            "value" : "0.2",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
+                    "Actions" : [],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "OnFailureResults" : 
+            [
+                {
+                "Scope" : "Company",
+                "Requirements" : null,
+                "AddedTags" : {
+                    "items" : 
+                        [
+                            "fp_ZhaoEscapes"
+                        ],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" : [
+                    {
+                        "typeString" : "System.Single",
+                        "name" : "ContractBonusRewardPct",
+                        "value" : "-0.2",
+                        "set" : false,
+                        "valueConstant" : null
+                    }
+                ],
+                "Actions" : [],
+                "ForceEvents" : [],
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                }
+            ],
             "OnSuccessDialogueGUID" : null,
             "OnFailureDialogueGUID" : null
         },
@@ -207,8 +267,45 @@
             "title" : "Stop the Usurper from Escaping",
             "description" : "If he stays Kill him. If he runs, well....",
             "isPrimary" : true,
-            "OnSuccessResults" : [],
-            "OnFailureResults" : [],
+            "OnSuccessResults" : 
+            [
+                {
+                "Scope" : "Company",
+                "Requirements" : null,
+                "AddedTags" : {
+                    "items" : 
+                        ["fp_ZhaoTriedToRun"],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" : [],
+                "Actions" : [],
+                "ForceEvents" : [],
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                }
+            ],
+            "OnFailureResults" : [{
+                "Scope" : "Company",
+                "Requirements" : null,
+                "AddedTags" : {
+                    "items" : 
+                        ["fp_ZhaoEscapes"],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" : [],
+                "Actions" : [],
+                "ForceEvents" : [],
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                }],
             "OnSuccessDialogueGUID" : null,
             "OnFailureDialogueGUID" : null
         },
@@ -293,6 +390,28 @@
             "name" : "Dialogue_MissionStart",
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
+                {
+                    "words": "{MC.If.RandomPercentage.IsLessThanOrIs.25%}I never expected Taurian help but let's not waste the opportunity.",
+                    "wordsColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Medium",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                  },
+                  {
+                    "words": "{MC.If.Commander.HasTag.commander_ancestry_taurian}I would never have expected help from your ancesters, especially Taurian.",
+                    "wordsColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Medium",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                    },
                 {
                     "words" : "/// Incoming Transmission ///",
                     "wordsColor" : {
@@ -838,7 +957,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "dd1b3129-0f5d-4e93-b87d-42ab13c68e7d"
                         },
-                        "customUnitName" : "OP4-Leader",
+                        "customUnitName" : "FJ-1",
                         "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_mackie_MSK-6S",
@@ -871,10 +990,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "2d62bfad-c89a-488e-94a4-25cb748f0423"
                         },
-                        "customUnitName" : "OP4-1",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -887,7 +1006,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d4_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -904,10 +1023,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "16d4b3f5-6d90-40c5-8b5b-6d0e2f69a229"
                         },
-                        "customUnitName" : "OP4-2",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -920,7 +1039,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d4_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -937,10 +1056,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "a2920539-8765-4260-ba55-1f155ae0bda8"
                         },
-                        "customUnitName" : "OP4-3",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -953,7 +1072,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d4_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -995,8 +1114,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "8e0a56bb-8b5a-49e7-98da-5abbb2c36f8f"
                         },
-                        "customUnitName" : "Wannabe 1",
-                        "customHeraldryDefId" : "",
+                        "customUnitName" : "FJ-2",
+                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_mackie_MSK-6S",
                         "unitTagSet" : {
@@ -1011,7 +1130,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1028,10 +1147,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "32f2da7d-0c4d-474d-9917-6963eca1b3d9"
                         },
-                        "customUnitName" : "Wanna 2",
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R90",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1044,7 +1163,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1061,10 +1180,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "121ef017-a2af-41f2-b135-7c17bea334c7"
                         },
-                        "customUnitName" : "Wanna 3",
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R90",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1077,7 +1196,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1094,10 +1213,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "c47cb632-8b27-46b7-a53a-4320736216ae"
                         },
-                        "customUnitName" : "Wanna 4",
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R90",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1132,9 +1251,7 @@
                 "name" : "Lance_Enemy_AssassinationTarget",
                 "lanceDefId" : "Manual",
                 "lanceTagSet" : {
-                    "items" : [
-                        "lance_type_solo"
-                    ],
+                    "items" : [],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
@@ -1142,7 +1259,7 @@
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
-                    "items" : [],
+                    "items" : ["spawn_poorly_maintained_75"],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment" : 1,
@@ -1157,7 +1274,7 @@
                         "customUnitName" : "The Boss",
                         "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mackie_MSK-10X",
+                        "unitDefId" : "mechdef_mackie_MSK-X10",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1167,7 +1284,7 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_75"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
                         "pilotDefId" : "pilot_johannasZ",
@@ -1189,8 +1306,8 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechDef_None",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1203,7 +1320,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1222,8 +1339,8 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechDef_None",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1236,7 +1353,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1255,8 +1372,8 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechDef_None",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1269,7 +1386,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
