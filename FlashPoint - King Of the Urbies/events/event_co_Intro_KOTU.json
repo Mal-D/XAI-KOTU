@@ -1,0 +1,260 @@
+{
+	"Description": {
+		"Id": "event_co_Intro_KOTU",
+		"Name": "King of the Urbies.",
+		"Details": "Commander, we're being spammed but someone called Lord Magnus Toppletiff. Seems he has a job offer going out on the MercNet. Something about a robbery.\r\n\r\nWould you like me to respond?",
+		"Icon": "uixTxrSpot_KOTU.png"
+	},
+	"Scope": "Company",
+	"Weight": 1000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"items": [],
+			"tagSetSourceFile": ""
+		},
+		"ExclusionTags": {
+			"items": [
+				"fp_KOTU_Ready",
+				"fp_KOTU_cancel",
+				"fp_KOTU_intro_cancel",
+				"fe_event_Load_KOTU_cancel"
+			],
+			"tagSetSourceFile": ""
+		},
+		"RequirementComparisons": [
+			{
+				"obj": "Reputation.MercenaryReviewBoard",
+				"op": "GreaterThan",
+				"val": 200,
+				"valueConstant": "200"
+			}
+		]
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Sure - Why not we're between jobs right now.",
+				"Details": "Send him the 'Guest' one time use HPG link authorization code. We don't want his majesty pestering afterwards.",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Play it Now",
+						"Details": "Why are all these weird calls always so secretive.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"fp_KOTU_intro_cancel",
+									"fp_KOTU_Ready"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "System_AddFlashpoint",
+									"value": "fp_KOTU",
+									"valueConstant": null,
+									"additionalValues": [
+										"starsystemdef_newvallis"
+									]
+								},
+								{
+									"Type": "System_ForceDropshipRoom",
+									"value": "Ship",
+									"valueConstant": null,
+									"additionalValues": [
+										null
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Currently busy - Play it later.",
+				"Details": "We're currently busy. But, store it for later reference. We may need something later.",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "Respond later",
+						"Details": "No chance of forgetting Commander. He seems to have this 30 day resend Comstar package.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"fp_KOTU_intro_cancel"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "System_ForceDropshipRoom",
+									"value": "Ship",
+									"valueConstant": null,
+									"additionalValues": [
+										null
+									]
+								}
+							],
+							"ForceEvents": [
+								{
+									"Scope": "Company",
+									"EventID": "fe_event_Load_KOTU",
+									"MinDaysWait": 30,
+									"MaxDaysWait": 30,
+									"Probability": 100,
+									"RetainPilot": false
+								}
+							],
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_2",
+				"Name": "Sorry but not for me.",
+				"Details": "Comstar won't bother you again regarding this message. To play the Scorpion's Nest in the future, you will need to start a new career.",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_2_0",
+						"Name": "Not for me",
+						"Details": "Thanks but no thanks.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"fp_KOTU_cancel",
+									"fp_KOTU_intro_cancel",
+									"fe_event_Load_KOTU_cancel"
+								],
+								"tagSetSourceFile": "Tags/CompanyTags"
+							},
+							"RemovedTags": {
+								"items": [],
+								"tagSetSourceFile": ""
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"ExclusionTags": {
+					"items": [],
+					"tagSetSourceFile": ""
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": true,
+	"Tags": {
+		"items": [],
+		"tagSetSourceFile": "tags/EventTags"
+	}
+}
