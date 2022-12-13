@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "fe_event_Load_KOTU",
-		"Name": "Load - King of the Urbies.",
-		"Details": "Load Flashpoint.\r\n\r\nWould you like to play 'King of the Urbies'?",
+		"Name": "Lord Toppletiff's broadcast.",
+		"Details": "Looking through your outstanding correspondance, you notice the spam filter has been active.\r\n\r\n\"Sumire, are we still receiving that cyclic broadcast?\"\r\n\r\n\"Yes Commander I was about to block it, what would you like me to do?\".",
 		"Icon": "uixTxrSpot_KOTU.png"
 	},
 	"Scope": "Company",
@@ -15,7 +15,10 @@
 		},
 		"ExclusionTags": {
 			"items": [
-				"fe_event_Load_KOTU_cancel"
+				"fe_event_Load_KOTU_cancel",
+				"flashpoint_KOTU_complete",
+				"fp_KOTU_cancel",
+				"fp_KOTU_intro_cancel"
 			],
 			"tagSetSourceFile": ""
 		},
@@ -27,8 +30,8 @@
 		{
 			"Description": {
 				"Id": "outcome_0",
-				"Name": "outcome_0Name: Play King of the Urbies",
-				"Details": "outcome_0details:King of the Urbies",
+				"Name": "Play the Broadcast.",
+				"Details": "I suppose we should at least tell him we are interested.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -36,8 +39,8 @@
 				{
 					"Description": {
 						"Id": "outcome_0_0",
-						"Name": "Play King of the Urbies",
-						"Details": "Start - King of the Urbies",
+						"Name": "Play the Broadcast.",
+						"Details": "Play the Broadcast.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -60,7 +63,7 @@
 									"value": "fp_KOTU",
 									"valueConstant": null,
 									"additionalValues": [
-										"starsystemdef_newvallis"
+										"starsystemdef_NewVallis"
 									]
 								},
 								{
@@ -115,8 +118,8 @@
 		{
 			"Description": {
 				"Id": "outcome_1",
-				"Name": "Not just yet",
-				"Details": "Sorry, but I am still not available to play.",
+				"Name": "Persistant bugger isn't he... let's see if it repeats",
+				"Details": "Persistant bugger",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -124,8 +127,8 @@
 				{
 					"Description": {
 						"Id": "outcome_1_0",
-						"Name": "Not yet Available",
-						"Details": "Not yet Available",
+						"Name": "Persistant bugger... Not just yet.",
+						"Details": "Persistant bugger... Not just yet.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -203,8 +206,8 @@
 		{
 			"Description": {
 				"Id": "outcome_2",
-				"Name": "Please stop bugging me.",
-				"Details": "I am not interested.",
+				"Name": "Unsubscribe from the ComStream.",
+				"Details": "Sumire please unsubscribe, this is getting tedious.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -213,7 +216,7 @@
 					"Description": {
 						"Id": "outcome_2_0",
 						"Name": "No thanks",
-						"Details": "Sorry you feel that way.\r\n\r\nIf you wish to play 'King of the Urbies' in the future you will need to start another career.",
+						"Details": "Sorry to see you leave.\r\n\r\nWe won't bother you again.",
 						"Icon": null
 					},
 					"Weight": 100,

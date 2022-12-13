@@ -2,19 +2,20 @@
 	"Description": {
 		"Id": "event_co_Intro_KOTU",
 		"Name": "King of the Urbies.",
-		"Details": "Commander, we're being spammed but someone called Lord Magnus Toppletiff. Seems he has a job offer going out on the MercNet. Something about a robbery.\r\n\r\nWould you like me to respond?",
+		"Details": "Sumire's voice crackled over the cabin speakers, \"Commander, we're being spammed by someone called Lord Magnus Toppletiff. Seems he has a job offer going out on the MercNet. Something about a robbery.\r\n\r\nWould you like me to respond?\".",
 		"Icon": "uixTxrSpot_KOTU.png"
 	},
 	"Scope": "Company",
-	"Weight": 1000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"items": [],
+			"items": ["flashpoint_headhunting_complete"],
 			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": [
+				
 				"fp_KOTU_Ready",
 				"fp_KOTU_cancel",
 				"fp_KOTU_intro_cancel",
@@ -73,7 +74,7 @@
 									"value": "fp_KOTU",
 									"valueConstant": null,
 									"additionalValues": [
-										"starsystemdef_newvallis"
+										"starsystemdef_NewVallis"
 									]
 								},
 								{
@@ -118,7 +119,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Respond later",
-						"Details": "No chance of forgetting Commander. He seems to have this 30 day resend Comstar package.",
+						"Details": "No chance of forgetting Commander. He seems to have this on a 30 day resend Comstar package.\r\n\r\nDon't forget to set the Forced Event time back to 30 days.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -151,8 +152,8 @@
 								{
 									"Scope": "Company",
 									"EventID": "fe_event_Load_KOTU",
-									"MinDaysWait": 30,
-									"MaxDaysWait": 30,
+									"MinDaysWait": 5,
+									"MaxDaysWait": 5,
 									"Probability": 100,
 									"RetainPilot": false
 								}
@@ -197,7 +198,7 @@
 			"Description": {
 				"Id": "outcome_2",
 				"Name": "Sorry but not for me.",
-				"Details": "Comstar won't bother you again regarding this message. To play the Scorpion's Nest in the future, you will need to start a new career.",
+				"Details": "Comstar won't bother you again regarding this message.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -206,7 +207,7 @@
 					"Description": {
 						"Id": "outcome_2_0",
 						"Name": "Not for me",
-						"Details": "Thanks but no thanks.",
+						"Details": "Thanks but no thanks. To accept the Tippletoff's message in the future, you will need to start a new career.",
 						"Icon": null
 					},
 					"Weight": 100,

@@ -10,7 +10,7 @@
     "sgCharType" : "UNSET",
     "showRank" : true,
     "showFirstName" : true,
-    "showCallsign" : true,
+    "showCallsign" : false,
     "showLastName" : true,
     "defaultEmotePortrait" : {
         "emote" : "Default",

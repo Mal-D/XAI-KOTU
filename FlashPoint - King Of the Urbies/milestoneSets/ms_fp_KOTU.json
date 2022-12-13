@@ -949,7 +949,7 @@
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
-                            "items" : [],
+                            "items" : ["fp_mackieDestroyed"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
@@ -1028,7 +1028,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "20000000",
+                            "value" : "10000000",
                             "set" : false,
                             "valueConstant" : null
                         },
