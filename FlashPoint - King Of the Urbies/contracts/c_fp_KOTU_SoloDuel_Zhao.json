@@ -144,7 +144,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Remeber what I said about the Warbook entry - 'was never fully fitted for actual Combat'.",
+          "words": "Remember what I said about the Manufacturer's Note - 'was never fully fitted for actual Combat'.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -379,14 +379,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Are you sure you don't want to look at your Armo...",
+          "words": "Johannas, are you sure you don't want to check your Armo...",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_johannasZ",
+          "selectedCastDefId": "castDef_FarahDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -395,7 +395,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Enough !! Prepare yourself.",
+          "words": "Enough talk!! Commander, Prepare yourself.",
           "wordsColor": {
             "r": 1,
             "g": 1,

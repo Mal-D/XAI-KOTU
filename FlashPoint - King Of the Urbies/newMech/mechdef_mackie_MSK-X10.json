@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "BLACKLISTED",
             "unit_release",
             "unit_ready",
             "unit_mech",
@@ -9,8 +10,7 @@
             "unit_role_brawler",
             "unit_speed_low",
             "unit_range_medium",
-            "unit_hot",
-            "BLACKLISTED"
+            "unit_hot"
         ], 
         "tagSetSourceFile": ""
     }, 

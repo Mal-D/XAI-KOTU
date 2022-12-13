@@ -424,7 +424,7 @@
             "Results" : [
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_reward_1"
@@ -460,7 +460,7 @@
                 },
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_reward_2"
@@ -496,7 +496,7 @@
                 },
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_reward_3"
@@ -532,7 +532,7 @@
                 },
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_reward_4"
@@ -557,7 +557,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_300_Complete",
+                            "value" : "ms_fp_KOTU_400_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -949,7 +949,7 @@
                     "Requirements" : {
                         "Scope" : "Flashpoint",
                         "RequirementTags" : {
-                            "items" : ["fp_mackieDestroyed"],
+                            "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
