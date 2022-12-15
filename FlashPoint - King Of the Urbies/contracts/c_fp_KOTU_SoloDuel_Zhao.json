@@ -1,8 +1,8 @@
 {
   "ID": "c_fp_KOTU_SoloDuel_Zhao",
-  "contractName": "Zhao's final Lesson",
+  "contractName": "Johannas Zhao's final lesson",
   "contractDisplayStyle": "BaseFlashpoint",
-  "difficulty": 7,
+  "difficulty": 5,
   "difficultyUIModifier": 0,
   "weight": 1,
   "scope": "MID_CAMPAIGN",
