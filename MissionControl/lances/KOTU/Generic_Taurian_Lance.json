@@ -15,22 +15,22 @@
 	  {
 		"unitType": "Mech",
 		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["TaurianConcordat"]}
+		"unitTagSet": {"items": ["TaurianConcordat","unit_medium"]}
 	  },
 	  {
 		"unitType": "Mech",
 		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["TaurianConcordat"]}
+		"unitTagSet": {"items": ["TaurianConcordat","unit_medium"]}
 	  },
 	  {
 		"unitType": "Mech",
 		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["TaurianConcordat"]}
+		"unitTagSet": {"items": ["TaurianConcordat","unit_heavy"]}
 	  },
 	  {
 		"unitType": "Mech",
 		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["TaurianConcordat"]}
+		"unitTagSet": {"items": ["TaurianConcordat","unit_medium"]}
 	  }
 	]
 }

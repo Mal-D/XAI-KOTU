@@ -82,7 +82,15 @@
                             "value" : "-0.2",
                             "set" : false,
                             "valueConstant" : null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "1",
+                            "set": false,
+                            "valueConstant": "1"
                         }
+                        
                     ],
                     "Actions" : [],
                     "ForceEvents" : [],
@@ -122,6 +130,13 @@
                             "value" : "-0.2",
                             "set" : false,
                             "valueConstant" : null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "2",
+                            "set": false,
+                            "valueConstant": "2"
                         }
                     ],
                     "Actions" : [],
@@ -164,6 +179,13 @@
                             "value" : "-0.2",
                             "set" : false,
                             "valueConstant" : null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "4",
+                            "set": false,
+                            "valueConstant": "4"
                         }
                     ],
                     "Actions" : [],
@@ -191,7 +213,7 @@
                     "AddedTags" : {
                         "items" : 
 							[
-						"fp_killedZhao"
+						"fp_Assassinated"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -274,7 +296,7 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : 
-                        ["fp_ZhaoTriedToRun"],
+                        ["fp_ZhaoAssassinted"],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {

@@ -164,7 +164,7 @@
                             "additionalValues" : [
                                 "",
                                 "05d2e43d-2256-4f59-9cab-047493ff7680",
-                                "c_fp_kingOfUrbies_assassinate",
+                                "c_fp_KOTU_assassinate",
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
                                 "7",
@@ -175,6 +175,13 @@
                                 null,
                                 null
                             ]
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "0",
+                            "set": true,
+                            "valueConstant": "0"
                         },
                         {
                             "Type" : "System_ForceDropshipRoom",
@@ -582,7 +589,7 @@
             "Results" : [
                 { "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
@@ -614,8 +621,7 @@
                             "value" : "ms_fp_KOTU_101_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null,
-                                null
+                                "itemCollection_KOTU_reward_1"
                             ]
                         }
                     ],
@@ -639,7 +645,7 @@
             "Results" : [
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : "Tags/CompanyTags"
@@ -693,8 +699,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {"Description" : {
-                "Id" : "ms_fp_KOTU_200_Complete",
+        {"Description" : {"Id" : "ms_fp_KOTU_200_Complete",
                 "Name" : "ms_fp_KOTU_200_Complete",
                 "Details" : "200_Complete",
                 "Icon" : null
@@ -704,7 +709,7 @@
             "Results" : [
                 { "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
@@ -736,8 +741,7 @@
                             "value" : "ms_fp_KOTU_201_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null,
-                                null
+                                "itemCollection_KOTU_reward_2"
                             ]
                         }
                     ],
@@ -826,7 +830,7 @@
             "Results" : [
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
@@ -858,8 +862,7 @@
                             "value" : "ms_fp_KOTU_301_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null,
-                                null
+                                "itemCollection_KOTU_reward_3"
                             ]
                         }
                     ],
@@ -947,7 +950,7 @@
             "Results" : [
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
@@ -980,8 +983,7 @@
                             "value" : "ms_fp_KOTU_401_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null,
-                                null
+                                "itemCollection_KOTU_MuseumPieces"
                             ]
                         }
                     ],
