@@ -1,7 +1,7 @@
 {
     "Name": "FlashPoint_KOTU",
     "Enabled": true,
-	"Version": "XAI-KOTU-1.0.2-PreRelease",
+	"Version": "XAI-KOTU-1.0.3-PreRelease",
     "Author": "MalD",
 
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations", "Mission Control" ],
