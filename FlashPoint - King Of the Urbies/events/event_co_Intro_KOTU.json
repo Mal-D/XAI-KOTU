@@ -3,7 +3,7 @@
 		"Id": "event_co_Intro_KOTU",
 		"Name": "King of the Urbies.",
 		"Details": "Sumire's voice crackled over the cabin speakers, \"Commander, we're being spammed by someone called Lord Magnus Toppletiff. Seems he has a job offer going out on the MercNet. Something about a robbery.\r\n\r\nWould you like me to respond?\".",
-		"Icon": "uixTxrSpot_KOTU.png"
+		"Icon": "uixTxrSpot_KOTU_intro.png"
 	},
 	"Scope": "Company",
 	"Weight": 100,
