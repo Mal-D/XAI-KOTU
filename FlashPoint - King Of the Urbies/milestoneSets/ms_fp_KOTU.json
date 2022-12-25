@@ -316,7 +316,7 @@
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null
+                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -741,7 +741,7 @@
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null
+                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -861,7 +861,7 @@
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null
+                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -982,7 +982,7 @@
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null
+                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -1103,7 +1103,7 @@
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null
+                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -1181,7 +1181,8 @@
             },
             "Scope" : "Company",
             "Requirements" : [],
-            "Results" : [ {"Scope" : "Company",
+            "Results" : [ 
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -1218,7 +1219,7 @@
                                 "value" : "Ship",
                                 "valueConstant" : null,
                                 "additionalValues" : [
-                                    null
+                                    "BaseFlashpoint"
                                 ]
                             }
                         ],
