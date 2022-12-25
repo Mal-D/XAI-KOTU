@@ -27,7 +27,16 @@
             "items": [],
             "tagSetSourceFile": ""
         },
-        "Stats": [],
+        "Stats": 
+        [
+          {
+            "typeString": "System.Int32",
+            "name": "MackieCount",
+            "value": "1",
+            "set": true,
+            "valueConstant": "1"
+          }
+        ],
         "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
@@ -322,14 +331,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "That was unexpected, Commander. Maybe we should just let bygones be bygones and let him keep the Mackie?",
+          "words": "Well, well, well. How the mighty have fallen! I think I will keep this 'Mech.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_johannasZ",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",

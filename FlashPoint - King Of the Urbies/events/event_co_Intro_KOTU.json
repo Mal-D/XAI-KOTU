@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_KOTU_intro.png"
 	},
 	"Scope": "Company",
-	"Weight": 100,
+	"Weight": 1000,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -38,8 +38,8 @@
 		{
 			"Description": {
 				"Id": "outcome_0",
-				"Name": "Sure - Why not we're between jobs right now.",
-				"Details": "Send him the 'Guest' one time use HPG link authorization code. We don't want his majesty pestering afterwards.",
+				"Name": "Send him the 'Guest' one time use HPG link authorization code.",
+				"Details": "Send him the 'Guest' one time use HPG link authorization code.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -47,7 +47,7 @@
 				{
 					"Description": {
 						"Id": "outcome_0_0",
-						"Name": "Play it Now",
+						"Name": "Why not... might be worth a look.",
 						"Details": "Why are all these weird calls always so secretive.",
 						"Icon": null
 					},
@@ -109,8 +109,8 @@
 		{
 			"Description": {
 				"Id": "outcome_1",
-				"Name": "Currently busy - Play it later.",
-				"Details": "We're currently busy. But, store it for later reference. We may need something later.",
+				"Name": "Just move it to the spam folder - we'll get to it soon.",
+				"Details": "We're currently busy.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -197,7 +197,7 @@
 		{
 			"Description": {
 				"Id": "outcome_2",
-				"Name": "Sorry but not for me.",
+				"Name": "Unsubscribe... Let's not take any unsolicited calls.",
 				"Details": "Comstar won't bother you again regarding this message.",
 				"Icon": null
 			},
@@ -206,7 +206,7 @@
 				{
 					"Description": {
 						"Id": "outcome_2_0",
-						"Name": "Not for me",
+						"Name": "Unsubscribe...",
 						"Details": "Thanks but no thanks. To accept the Tippletoff's message in the future, you will need to start a new career.",
 						"Icon": null
 					},
