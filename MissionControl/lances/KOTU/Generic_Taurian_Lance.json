@@ -25,7 +25,7 @@
 	  {
 		"unitType": "Mech",
 		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["TaurianConcordat","unit_heavy"]}
+		"unitTagSet": {"items": ["TaurianConcordat","unit_medium"]}
 	  },
 	  {
 		"unitType": "Mech",
