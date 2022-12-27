@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_KOTU_assassinate",
-    "contractName" : "Death to the Usurper.",
+    "ID" : "c_fp_KOTU_assassinate_alt",
+    "contractName" : "Last Chance",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 6,
     "difficultyUIModifier" : 1,
@@ -270,9 +270,7 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : 
-                        [
-                            "fp_ZhaoEscapes"
-                        ],
+                        [],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {
