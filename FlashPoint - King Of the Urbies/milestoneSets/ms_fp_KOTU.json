@@ -135,10 +135,7 @@
                     "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_KOTU_continue"
-                            ],
+                        "RequirementTags" : {"items" : ["fp_KOTU_continue"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
@@ -147,12 +144,10 @@
                         },
                         "RequirementComparisons" : []
                     },
-                    "AddedTags" : {
-                        "items" : [],
+                    "AddedTags" : {"items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "RemovedTags" : {
-                        "items" : [],
+                    "RemovedTags" : {"items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : 
@@ -202,9 +197,7 @@
                     "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_KOTU_continue_duel"
+                        "RequirementTags" : {"items" : ["fp_KOTU_continue_duel"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -251,9 +244,7 @@
                                 null
                             ]
                         },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
+                        {"Type" : "System_ForceDropshipRoom","value" : "Contract",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "BaseFlashpoint"
@@ -311,8 +302,7 @@
                                 "CompletedWithoutReward"
                             ]
                         },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
+                        {"Type" : "System_ForceDropshipRoom",
                             "value" : "Ship",
                             "valueConstant" : null,
                             "additionalValues" : [
@@ -330,8 +320,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_004_Talk",
+            "Description" : {"Id" : "ms_fp_KOTU_004_Talk",
                 "Name" : "Talk",
                 "Details" : "Company",
                 "Icon" : null
@@ -339,8 +328,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -387,8 +375,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -448,14 +435,10 @@
             },
             "Scope" : "Company",
             "Requirements" : [],
-            "Results" : [
+            "Results" : [ 
                 {"Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_reward_1"
-                            ],
+                    "Requirements" : { "Scope" : "Company",
+                        "RequirementTags" : {"items" : [ "fp_reward_1"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
@@ -486,28 +469,18 @@
                     "ResultDuration" : 0
                 },
                 {"Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_reward_2"
-                            ],
-                            "tagSetSourceFile" : ""
-                        },
+                    "Requirements" : {"Scope" : "Company","RequirementTags" : {"items" : ["fp_reward_2"],
+                            "tagSetSourceFile" : ""},
                         "ExclusionTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
                     },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
+                    "AddedTags" : {"items" : [],
+                    "tagSetSourceFile" : ""}
+                    ,
+                    "RemovedTags" : {"items" : [],"tagSetSourceFile" : ""},
                     "Stats" : null,
                     "Actions" : [
                         {
@@ -523,11 +496,7 @@
                 },
                 {"Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_reward_3"
-                            ],
+                        "Scope" : "Company","RequirementTags" : {"items" : ["fp_reward_3"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {

@@ -1,0 +1,120 @@
+{
+	"Description": {
+		"Id": "lancedef_mech_d6_URBIE",
+		"Name": "Urbie 6 DF",
+		"Details": "",
+		"Icon": "",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 6,
+	"LanceTags": {
+		"items": [
+			"lance_bracket_med",
+			"lance_type_fire",
+			"lance_type_light",
+			"lance_type_mech",
+			"lance_type_notallvehicles"
+		],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"unitSimGameID": null,
+			"pilotId": "Tagged",
+			"pilotSimGameID": null,
+			"unitTagSet": {
+				"items": [ "unit_mech", "unit_urbie", "unit_range_long" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [ "unit_noncombatant" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [ "pilot_npc_sharpshooter",  "pilot_npc_d6" ],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"locked": false
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"unitSimGameID": null,
+			"pilotId": "Tagged",
+			"pilotSimGameID": null,
+			"unitTagSet": {
+				"items": [ "unit_mech", "unit_urbie", "unit_range_long" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [ "unit_noncombatant" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [ "pilot_npc_sharpshooter", "pilot_npc_d6" ],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"locked": false
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"unitSimGameID": null,
+			"pilotId": "Tagged",
+			"pilotSimGameID": null,
+			"unitTagSet": {
+				"items": [ "unit_mech", "unit_urbie", "unit_range_short" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [ "unit_noncombatant" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [ "pilot_npc_skirmisher",  "pilot_npc_d6" ],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"locked": false
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"unitSimGameID": null,
+			"pilotId": "Tagged",
+			"pilotSimGameID": null,
+			"unitTagSet": {
+				"items": [ "unit_mech", "unit_urbie", "unit_range_medium" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [ "unit_noncombatant" ],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [ "pilot_npc_skirmisher",  "pilot_npc_d6" ],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"locked": false
+		}
+	]
+}

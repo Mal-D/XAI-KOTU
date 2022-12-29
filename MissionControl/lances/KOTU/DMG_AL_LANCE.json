@@ -1,0 +1,48 @@
+{
+	"lanceKey": "DMG_AL_LANCE",
+	"lanceDefId": "lancedef_mech_d6_AL_LightMedScout",
+	"lanceTagSet": {
+		"items": []
+	},
+	"lanceExcludedTagSet": {
+		"items": []
+	},
+	"spawnEffectTags": {
+		"items": []
+	},
+	"lanceDifficultyAdjustment": 0,
+	"unitSpawnPointOverrideList": [
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [
+					"spawn_poorly_maintained_25"
+				]
+			}
+		},
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [
+					"spawn_poorly_maintained_25"
+				]
+			}
+		},
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [
+					"spawn_poorly_maintained_25"
+				]
+			}
+		},
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [
+					"spawn_poorly_maintained_25"
+				]
+			}
+		}
+	]
+}

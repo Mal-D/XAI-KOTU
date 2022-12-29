@@ -1,36 +1,36 @@
 {
 	"lanceKey": "DMG_URBANMECH_LANCE",
-	"lanceDefId": "Manual",
+	"lanceDefId": "lancedef_mech_d6_URBIE",
 	"lanceTagSet": {
-	  "items": []
+		"items": []
 	},
 	"lanceExcludedTagSet": {
-	  "items": []
+		"items": []
 	},
-	"spawnEffectTags": {
-	  "items": ["spawn_poorly_maintained_75"]
-	},
-	"lanceDifficultyAdjustment": 0,
 	"unitSpawnPointOverrideList": [
-	  {
-		"unitType": "Mech",
-		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["unit_urbie"]}
-	  },
-	  {
-		"unitType": "Mech",
-		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["unit_urbie"]}
-	  },
-	  {
-		"unitType": "Mech",
-		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["unit_urbie"]}
-	  },
-	  {
-		"unitType": "Mech",
-		"unitDefId": "Tagged",
-		"unitTagSet": {"items": ["unit_urbie"]}
-	  }
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [ "spawn_poorly_maintained_25" ]
+			}
+		},
+		{	
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [ "spawn_poorly_maintained_50" ]
+			}
+		},
+		{
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [ "spawn_poorly_maintained_50" ]
+			}
+		},
+		{	
+			"unitDefId": "UseLance",
+			"spawnEffectTags": {
+				"items": [ "spawn_poorly_maintained_75" ]
+			}
+		}
 	]
-  }
+}
