@@ -39,7 +39,7 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "Sure - Why not we're between jobs right now.",
-				"Details": "Send him the 'Guest' one time use HPG link authorization code. We don't want his majesty pestering afterwards.",
+				"Details": "Send him the 'Guest' one time use HPG link authorization code. We don't want his majesty pestering us afterwards.",
 				"Icon": null
 			},
 			"RequirementList": [],
@@ -197,7 +197,7 @@
 		{
 			"Description": {
 				"Id": "outcome_2",
-				"Name": "Sorry but not for me.",
+				"Name": "Unsubscribe... Let's not take any unsolicited calls.",
 				"Details": "Comstar won't bother you again regarding this message.",
 				"Icon": null
 			},
@@ -206,7 +206,7 @@
 				{
 					"Description": {
 						"Id": "outcome_2_0",
-						"Name": "Not for me",
+						"Name": "Unsubscribe...",
 						"Details": "Thanks but no thanks. To accept the Tippletoff's message in the future, you will need to start a new career.",
 						"Icon": null
 					},

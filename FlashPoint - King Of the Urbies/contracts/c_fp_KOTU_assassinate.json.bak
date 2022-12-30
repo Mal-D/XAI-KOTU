@@ -549,7 +549,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "You let my Mechwarriors do that. The waste of it all, just to satisfy a privileged, entitled fop. I hope you can still sleep hearing their screams over the comms? And you call us heartless mercs. Seems a bit contradictory to me.",
+                    "words" : "You let my Mechwarriors do that. The waste of it all, just to satisfy a priviliged, entitled fop. I hope you can still sleep hearing their screams over the comms? And you call us heartless mercs. Seems a bit contradictory to me.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -992,10 +992,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_gunner",
+                        "pilotDefId" : "pilot_d8_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1012,10 +1012,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "2d62bfad-c89a-488e-94a4-25cb748f0423"
                         },
-                        "customUnitName" : "Escort 1",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60S",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1025,10 +1025,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1149,10 +1149,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : ["spawn_poorly_maintained_75"],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1169,10 +1169,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "32f2da7d-0c4d-474d-9917-6963eca1b3d9"
                         },
-                        "customUnitName" : "Escort 2",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60S",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1182,10 +1182,10 @@
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "spawnEffectTags" : {
-                            "items" : ["spawn_poorly_maintained_50"],
+                            "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1326,10 +1326,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "32a78eeb-e3ee-4f2c-96ce-3f2aa6aefa6b"
                         },
-                        "customUnitName" : "Escort 3",
-                        "customHeraldryDefId" : "heraldrydef_flackJackals_Alt",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_urbanmech_UM-R60C",
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "",
+                        "unitDefId" : "",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1342,7 +1342,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

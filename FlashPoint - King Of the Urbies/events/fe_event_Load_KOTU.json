@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "fe_event_Load_KOTU",
 		"Name": "Lord Toppletiff's broadcast.",
-		"Details": "Looking through your outstanding correspondance, you notice the spam filter has been active.\r\n\r\n\"Sumire, are we still receiving that cyclic broadcast?\"\r\n\r\n\"Yes Commander I was about to block it, what would you like me to do?\".",
+		"Details": "Looking through your outstanding correspondence, you notice the spam filter has been active.\r\n\r\n\"Sumire, are we still receiving that cyclic broadcast?\"\r\n\r\n\"Yes Commander I was about to block it, what would you like me to do?\".",
 		"Icon": "uixTxrSpot_KOTU.png"
 	},
 	"Scope": "Company",

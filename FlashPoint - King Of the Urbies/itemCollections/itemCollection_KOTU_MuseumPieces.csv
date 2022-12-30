@@ -1,6 +1,5 @@
-itemCollection_KOTU_MuseumPieces,,A little Museum warehouse raid,This cache contains a couple of Taurian surprises
-mechdef_talos_TLS-1E,MechPart,1,1
+itemCollection_KOTU_MuseumPieces,,,
 itemCollection_Ammo_uncommon,Reference,2,1
-itemCollection_MechParts_TaurianConcordat_rare,Reference,3,1
 itemCollection_Upgrades_rare,Reference,1,1
-itemCollection_itemCollection_SLDF,Reference,2,1
+itemCollection_Mechs_uncommon,Reference,1,1
+itemCollection_SLDF,Reference,2,1

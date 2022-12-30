@@ -1,39 +1,47 @@
 {
-  "ID": "c_fp_KOTU_assassinate",
-  "RandomSpawns": {
-    "Enable": false
-  },
-  "HotDropProtection": {
-    "Enable": false
-  },
-  "AdditionalLances": {
-    "Enable": true,
-    "UseDialogue": true,
-    "DialogueCastDefId": "castDef_TaurianRepDefault",
-    "Dialogue": "We are here to assist. Toppletiff Holdings are here under sufference and be damned if I'll let their hubris destroy Taurian Infrastructure.",
-    "EnemyLanceCount": 2,
-    "EnemyLances": ["DMG_URBANMECH_LANCE", "DMG_URBANMECH_LANCE"],
-    "EnemyLanceObjectiveNames": ["Destroy Urbie Lance 1","Destroy Urbie Lance 2"],
-    "AllyLanceCount": 1,
-    "AllyLances": ["Generic_Taurian_Lance"]
-  },
-  "ExtendedLances": {
-    "Enable": false,
-    "TargetLanceSize": 6,
-    "EmployerLanceSize": 5,
-    "TargetAllyLanceSize": 5,
-    "EmployerAllyLanceSize": 5,
-    "HostileToAllLanceSize": 5,
-    "NeutralToAllLanceSize": 5
-  },
-  "ExtendedBoundaries": {
-    "Enable": true,
-    "IncreaseBoundarySizeByPercentage": 0.2
-  },
-  "DynamicWithdraw": {
-    "Enable": false
-  },
-  "AdditionalPlayerMechs": {
-    "Enable": false
-  }
+	"ID": "c_fp_KOTU_assassinate",
+	"RandomSpawns": {
+		"Enable": false
+	},
+	"HotDropProtection": {
+		"Enable": false
+	},
+	"AdditionalLances": {
+		"Enable": true,
+		"UseDialogue": true,
+		"DialogueCastDefId": "castDef_TaurianRepDefault",
+		"Dialogue": "We are here to assist. Toppletiff Holdings are here under sufferance and be damned if I'll let their hubris destroy Taurian Infrastructure.",
+		"EnemyLanceCount": 2,
+		"EnemyLances": [
+			"DMG_URBANMECH_LANCE",
+			"DMG_URBANMECH_LANCE"
+		],
+		"EnemyLanceObjectiveNames": [
+			"Destroy Urbie Lance 1",
+			"Destroy Urbie Lance 2"
+		],
+		"AllyLanceCount": 1,
+		"AllyLances": [
+			"DMG_AL_LANCE"
+		]
+	},
+	"ExtendedLances": {
+		"Enable": false,
+		"TargetLanceSize": 6,
+		"EmployerLanceSize": 5,
+		"TargetAllyLanceSize": 5,
+		"EmployerAllyLanceSize": 5,
+		"HostileToAllLanceSize": 5,
+		"NeutralToAllLanceSize": 5
+	},
+	"ExtendedBoundaries": {
+		"Enable": true,
+		"IncreaseBoundarySizeByPercentage": 0.2
+	},
+	"DynamicWithdraw": {
+		"Enable": false
+	},
+	"AdditionalPlayerMechs": {
+		"Enable": false
+	}
 }
