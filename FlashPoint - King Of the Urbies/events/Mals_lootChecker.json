@@ -95,9 +95,9 @@
         },
         {
             "Description" : {
-                "Id" : "outcome_1",
-                "Name" : "Checking Reward_1",
-                "Details" : "Checking Reward_1",
+                "Id" : "outcome_3",
+                "Name" : "Mal's Loot Checker",
+                "Details" : "Mal's Loot Checker",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -117,9 +117,9 @@
             "ResultSets" : [
                 {
                     "Description" : {
-                        "Id" : "outcome_1_0",
-                        "Name" : "1- Checking Reward_1",
-                        "Details" : "Checking Checking Reward_1",
+                        "Id" : "outcome_3_0",
+                        "Name" : "1- [Itemcollection Name]",
+                        "Details" : "Checking [Itemcollection Name]",
                         "Icon" : null
                     },
                     "Weight" : 100,
@@ -139,7 +139,7 @@
                             "Actions" : [
                                 {
                                     "Type" : "System_ShowRewards",
-                                    "value" : "itemCollection_KOTU_reward_1",
+                                    "value" : "itemCollection_KOTU_MuseumPieces",
                                     "valueConstant" : null,
                                     "additionalValues" : null
                                 }
