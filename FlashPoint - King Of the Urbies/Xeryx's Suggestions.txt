@@ -1,0 +1,15 @@
+Xeryx's Suggestions
+1. Up Johannas Zhao's skills
+2. Test a vastly updated MSK-10X
+3. Run at 50% armor
+4. Reduce the Taurian lance and make them all medium recon faster mechs.
+
+I'm thinking the following 
+>> Choose BigBattle and if lose got to Zhao duel lose again and just end the FP. (I've already got this one done)
+@@ Choose BigBattle and if win (Progress(MackieCount) of 4,5,6,7) got to son duel(withholding payment etc) - lose and end the FP with reduced reward. (player has to get something after all)
+## Choose BigBattle and if win (Progress(MackieCount) of 4,5,6,7) got to son duel(withholding payment etc) - win again take ToppleTiff Holdings to the cleaners.
+
+Choose Zhao dual and if lose got to bigBattle  - lose again and just end the FP.
+Choose Zhao dual and if win got to son duel (withholding payment etc) - lose and end the FP (small reward).
+Choose Zhao dual and if win got to son duel (withholding payment etc) - win again take ToppleTiff Holdings to the cleaners. 
+increased FP to two battles.
