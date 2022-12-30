@@ -155,7 +155,13 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [{
+                        "typeString": "System.Int32",
+                        "name": "MackieCount",
+                        "value": "0",
+                        "set": true,
+                        "valueConstant": "0"
+                    }],
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
@@ -167,22 +173,16 @@
                                 "c_fp_KOTU_assassinate",
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
-                                "7",
+                                "6",
                                 "ms_fp_KOTU_004_Talk",
                                 null,
-                                null,
+                                "ms_fp_KOTU_002_Talk",
                                 null,
                                 null,
                                 null
                             ]
-                        },
-                        {
-                            "typeString": "System.Int32",
-                            "name": "MackieCount",
-                            "value": "0",
-                            "set": true,
-                            "valueConstant": "0"
-                        },
+                        }
+                        ,
                         {
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Contract",
@@ -232,10 +232,10 @@
                                 "c_fp_KOTU_SoloDuel_Zhao",
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
-                                "7",
+                                "6",
                                 "ms_fp_KOTU_004_Talk",
                                 null,
-                                null,
+                                "ms_fp_KOTU_002_Talk",
                                 null,
                                 null,
                                 null
