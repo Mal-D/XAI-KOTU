@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Id" : "SimGameStatDesc_FailCount",
+        "Name" : "FailCount",
+        "Details" : "The Fail Count Score",
+        "Icon" : null
+    },
+    "setResult" : "You have a Failure Rating of {RES_VALUE.ToCommaSeparatedString}.",
+    "positiveResult" : "Adding {RES_VALUE.ToCommaSeparatedString} to your Failure Rating.",
+    "negativeResult" : "",
+    "temporalSetResult" : "",
+    "temporalPositiveResult" : "",
+    "temporalNegativeResult" : "",
+    "infinitiveSetResult" : "",
+    "infinitivePositiveResult" : "+{RES_VALUE.ToCommaSeparatedString} Failure Rating.",
+    "infinitiveNegativeResult" : ""
+}
+

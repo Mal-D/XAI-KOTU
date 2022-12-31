@@ -39,14 +39,20 @@
         "Scope": "Company",
         "Requirements": null,
         "AddedTags": {
-            "items": ["fp_ZhaoEscapes"],
+            "items": ["fp_ZhaoEscapes","fp_KOTU_continue_duel_fail"],
             "tagSetSourceFile": ""
         },
         "RemovedTags": {
             "items": [],
             "tagSetSourceFile": ""
         },
-        "Stats": [],
+        "Stats": [{
+          "typeString": "System.Int32",
+          "name": "FailCount",
+          "value": "1",
+          "set": false,
+          "valueConstant": "1"
+      }],
         "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,

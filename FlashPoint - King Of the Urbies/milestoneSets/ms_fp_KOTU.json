@@ -12,20 +12,23 @@
             "Requirements" : [],
             "Results" : [
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_choice_b",
-                            "fp_choice_a"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : [{
+                        "typeString": "System.Int32",
+                        "name": "FailCount",
+                        "value": "0",
+                        "set": true,
+                        "valueConstant": "0"
+                    }],
                     "Actions" : [],
                     "ForceEvents" : [],
                     "TemporaryResult" : false,

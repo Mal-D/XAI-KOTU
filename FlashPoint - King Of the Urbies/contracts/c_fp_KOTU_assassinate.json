@@ -259,6 +259,13 @@
                         "value" : "-0.2",
                         "set" : false,
                         "valueConstant" : null
+                    },
+                    {
+                        "typeString": "System.Int32",
+                        "name": "FailCount",
+                        "value": "1",
+                        "set": false,
+                        "valueConstant": "1"
                     }
                 ],
                 "Actions" : [],
@@ -296,7 +303,7 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : 
-                        ["fp_ZhaoAssassinted"],
+                        ["fp_ZhaoAssassinated"],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {
@@ -315,14 +322,20 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : 
-                        ["fp_ZhaoEscapes"],
+                        ["fp_ZhaoEscapes","fp_KOTU_Continue_fail"],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {
-                    "items" : [],
+                    "items" : ["fp_KOTU_Continue"],
                     "tagSetSourceFile" : ""
                 },
-                "Stats" : [],
+                "Stats" : [{
+                    "typeString": "System.Int32",
+                    "name": "FailCount",
+                    "value": "1",
+                    "set": false,
+                    "valueConstant": "1"
+                }],
                 "Actions" : [],
                 "ForceEvents" : [],
                 "TemporaryResult" : false,
@@ -338,7 +351,26 @@
             "title" : "Armor Breached",
             "description" : "Armor of the Target is breached.",
             "isPrimary" : false,
-            "OnSuccessResults" : [],
+            "OnSuccessResults" : [
+                {
+                "Scope" : "Company",
+                "Requirements" : null,
+                "AddedTags" : {
+                    "items" : 
+                        ["fp_ZhaoGetsTagged"],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" : [],
+                "Actions" : [],
+                "ForceEvents" : [],
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                }
+            ],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : null,
             "OnFailureDialogueGUID" : null
