@@ -2,8 +2,7 @@
     "StartingMilestoneID" : "ms_fp_KOTU_001_Start",
     "Milestones" : [
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_001_Start",
+            "Description" : {"Id" : "ms_fp_KOTU_001_Start",
                 "Name" : "Start",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -22,13 +21,15 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [{
+                    "Stats" : [
+                        {
                         "typeString": "System.Int32",
                         "name": "FailCount",
                         "value": "0",
                         "set": true,
                         "valueConstant": "0"
-                    }],
+                        }
+                    ],
                     "Actions" : [],
                     "ForceEvents" : [],
                     "TemporaryResult" : false,
@@ -45,7 +46,15 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : [
+                        {
+                        "typeString": "System.Int32",
+                        "name": "FailCount",
+                        "value": "0",
+                        "set": true,
+                        "valueConstant": "0"
+                        }
+                    ],
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
@@ -64,8 +73,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_002_Talk",
+            "Description" : {"Id" : "ms_fp_KOTU_002_Talk",
                 "Name" : "Talk",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -95,7 +103,7 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [],
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
