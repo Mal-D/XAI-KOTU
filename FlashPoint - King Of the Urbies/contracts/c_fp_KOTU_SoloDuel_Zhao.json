@@ -34,31 +34,7 @@
         "ResultDuration": 0
     }
 ],
-  "OnContractFailureResults": [
-    {
-        "Scope": "Company",
-        "Requirements": null,
-        "AddedTags": {
-            "items": ["fp_ZhaoEscapes","fp_KOTU_continue_duel_fail"],
-            "tagSetSourceFile": ""
-        },
-        "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-        },
-        "Stats": [{
-          "typeString": "System.Int32",
-          "name": "FailCount",
-          "value": "1",
-          "set": false,
-          "valueConstant": "1"
-      }],
-        "Actions": [],
-        "ForceEvents": [],
-        "TemporaryResult": false,
-        "ResultDuration": 0
-    }
-],
+  "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 1,
   "lanceMinTonnage": -1,
@@ -83,7 +59,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "953a5930-06d0-4a2d-9840-e9a70c2a63ea"
       },
-      "enableChunkFromContract": true
+      "enableChunkFromContract": false
     }
   ],
   "objectiveList": [
@@ -95,7 +71,31 @@
       "description": "",
       "isPrimary": true,
       "OnSuccessResults" : [],
-      "OnFailureResults" : [],
+      "OnFailureResults" : [
+        {
+            "Scope": "Company",
+            "Requirements": null,
+            "AddedTags": {
+                "items": ["fp_ZhaoEscapes","fp_KOTU_continue_duel_fail"],
+                "tagSetSourceFile": ""
+            },
+            "RemovedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "Stats": [{
+              "typeString": "System.Int32",
+              "name": "FailCount",
+              "value": "2",
+              "set": true,
+              "valueConstant": "2"
+          }],
+            "Actions": [],
+            "ForceEvents": [],
+            "TemporaryResult": false,
+            "ResultDuration": 0
+        }
+    ],
       "OnSuccessDialogueGUID": null,
       "OnFailureDialogueGUID": null
     }

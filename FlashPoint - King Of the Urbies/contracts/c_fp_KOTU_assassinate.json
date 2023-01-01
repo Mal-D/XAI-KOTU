@@ -264,7 +264,7 @@
                         "typeString": "System.Int32",
                         "name": "FailCount",
                         "value": "1",
-                        "set": false,
+                        "set": true,
                         "valueConstant": "1"
                     }
                 ],
