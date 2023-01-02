@@ -27,14 +27,44 @@
             "items": [],
             "tagSetSourceFile": ""
         },
-        "Stats": [],
+        "Stats": [{
+          "typeString": "System.Int32",
+          "name": "MackieCount",
+          "value": "4",
+          "set": false,
+          "valueConstant": "4"
+      }],
         "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
         "ResultDuration": 0
     }
 ],
-  "OnContractFailureResults": [],
+  "OnContractFailureResults": [
+    {
+        "Scope": "Company",
+        "Requirements": null,
+        "AddedTags": {
+            "items": ["fp_ZhaoEscapes"],
+            "tagSetSourceFile": ""
+        },
+        "RemovedTags": {
+            "items": [],
+            "tagSetSourceFile": ""
+        },
+        "Stats": [{
+          "typeString": "System.Int32",
+          "name": "FailCount",
+          "value": "2",
+          "set": true,
+          "valueConstant": "2"
+      }],
+        "Actions": [],
+        "ForceEvents": [],
+        "TemporaryResult": false,
+        "ResultDuration": 0
+    }
+],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 1,
   "lanceMinTonnage": -1,
@@ -70,32 +100,31 @@
       "title": "Destroy or Disable the Mackie",
       "description": "",
       "isPrimary": true,
-      "OnSuccessResults" : [],
-      "OnFailureResults" : [
-        {
-            "Scope": "Company",
-            "Requirements": null,
-            "AddedTags": {
-                "items": ["fp_ZhaoEscapes","fp_KOTU_continue_duel_fail"],
-                "tagSetSourceFile": ""
-            },
-            "RemovedTags": {
-                "items": [],
-                "tagSetSourceFile": ""
-            },
-            "Stats": [{
-              "typeString": "System.Int32",
-              "name": "FailCount",
-              "value": "2",
-              "set": true,
-              "valueConstant": "2"
-          }],
-            "Actions": [],
-            "ForceEvents": [],
-            "TemporaryResult": false,
-            "ResultDuration": 0
-        }
-    ],
+      "OnSuccessResults" : [{
+        "Scope": "Company",
+        "Requirements": null,
+        "AddedTags": {
+            "items": ["fp_mackieDestroyed"],
+            "tagSetSourceFile": ""
+        },
+        "RemovedTags": {
+            "items": [],
+            "tagSetSourceFile": ""
+        },
+        "Stats": [{
+          "typeString": "System.Int32",
+          "name": "MackieCount",
+          "value": "4",
+          "set": false,
+          "valueConstant": "4"
+      }],
+        "Actions": [],
+        "ForceEvents": [],
+        "TemporaryResult": false,
+        "ResultDuration": 0
+    }
+],
+      "OnFailureResults" : [],
       "OnSuccessDialogueGUID": null,
       "OnFailureDialogueGUID": null
     }
