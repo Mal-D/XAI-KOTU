@@ -23,11 +23,18 @@
                     },
                     "Stats" : [
                         {
-                        "typeString": "System.Int32",
-                        "name": "FailCount",
-                        "value": "0",
-                        "set": true,
-                        "valueConstant": "0"
+                            "typeString": "System.Int32",
+                            "name": "FailCount",
+                            "value": "0",
+                            "set": true,
+                            "valueConstant": "0"
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "0",
+                            "set": true,
+                            "valueConstant": "0"
                         }
                     ],
                     "Actions" : [
@@ -108,8 +115,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_003_MissionSim",
+            "Description" : {"Id" : "ms_fp_KOTU_003_MissionSim",
                 "Name" : "Mission Sim",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -405,8 +411,649 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {"Id" : "ms_fp_KOTU_005_RewardBranch",
-                "Name" : "RewardBranch",
+            "Description" : {
+                "Id" : "ms_fp_KOTU_005_Branch",
+                "Name" : "Branch",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                { "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "ODS2_launchPath-A"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "ODS2_launchPath-A",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "ODS2_launchPath-A",
+                                "castDef_DariusDefault"
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_100_Setup",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                { "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "ODS2_launchPath-B"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "ODS2_launchPath-B",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "ODS2_launchPath-B",
+                                "castDef_DariusDefault"
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_200_Setup",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                { "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "ODS2_launchPath-C"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "ODS2_launchPath-C",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "ODS2_launchPath-C",
+                                "castDef_DariusDefault"
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ODS2_launch_800_Cancel-Complete",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_KOTU_100_Setup",
+                "Name" : "100_Setup(UNUSED)",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_101_Mission",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_KOTU_101_Mission",
+                "Name" : "BigBattle - 101_Mission",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_KOTU_continue"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : 
+                        [
+                            {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "0",
+                            "set": true,
+                            "valueConstant": "0"
+                            }
+                        ],
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_gridLock_uTech",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "05d2e43d-2256-4f59-9cab-047493ff7680",
+                                "c_fp_KOTU_assassinate",
+                                "ToppletiffHoldings",
+                                "NewFlakJackals",
+                                "6",
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {"Description" : {"Id" : "ms_fp_KOTU_200_Setup",
+                "Name" : "200_Setup(UNUSED)",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_201_Mission",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_KOTU_201_Mission",
+                "Name" : "Zhao Duel - 201_Mission",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_KOTU_continue_duel"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapStory_StoryEncounter9_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "d9b711ac-2a6b-4236-86a8-61762a08f1ef",
+                                "c_fp_KOTU_SoloDuel_Zhao",
+                                "ToppletiffHoldings",
+                                "NewFlakJackals",
+                                "6",
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {"Id" : "ms_fp_KOTU_300_Talk",
+                "Name" : "Talk",
+                "Details" : "Company",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9ce546de4eb4e331c5e08847",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} II",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_301_MissionSim",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {"Description" : {"Id" : "ms_fp_KOTU_301_MissionSim",
+                "Name" : " 301_Mission Sim",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [
+                        {"Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_gridLock_uTech",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "05d2e43d-2256-4f59-9cab-047493ff7680",
+                                "c_fp_KOTU_assassinate",
+                                "ToppletiffHoldings",
+                                "NewFlakJackals",
+                                "6",
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                "ms_fp_KOTU_004_Talk",
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {"Id" : "ms_fp_KOTU_302_Talk",
+                "Name" : "302_Talk",
+                "Details" : "Company",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_KOTU_WonDuel"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "[Enter Conversation here]",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} II",
+                                "Junior Taught a Lesson \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_303_RewardBranch",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_KOTU_LostDuel"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "[Enter Convo ID here]",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "Junior Gloats. \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_303_RewardBranch",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {"Id" : "ms_fp_KOTU_303_RewardBranch",
+                "Name" : "303_RewardBranch",
                 "Details" : "RewardBranch",
                 "Icon" : null
             },
@@ -440,7 +1087,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_100_Complete",
+                            "value" : "ms_fp_KOTU_400_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -476,7 +1123,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_200_Complete",
+                            "value" : "ms_fp_KOTU_500_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -512,7 +1159,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_300_Complete",
+                            "value" : "ms_fp_KOTU_600_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -548,7 +1195,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_400_Complete",
+                            "value" : "ms_fp_KOTU_700_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -583,7 +1230,7 @@
                 "Stats" : null,
                 "Actions" : [
                     { "Type" : "Flashpoint_SetNextMilestone",
-                        "value" : "ms_fp_KOTU_500_CancelFail_Complete",
+                        "value" : "ms_fp_KOTU_800_CancelFail_Complete",
                         "valueConstant" : null,
                         "additionalValues" : null
                     }
@@ -598,9 +1245,9 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {"Id" : "ms_fp_KOTU_100_Complete",
-                "Name" : "Complete",
-                "Details" : "flashpoint",
+            "Description" : {"Id" : "ms_fp_KOTU_400_Complete",
+                "Name" : "400_Complete",
+                "Details" : "400_Complete",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -637,7 +1284,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_101_Reward",
+                            "value" : "ms_fp_KOTU_401_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "itemCollection_KOTU_reward_1"
@@ -653,8 +1300,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_101_Reward",
+        {"Description" : {"Id" : "ms_fp_KOTU_401_Reward",
                 "Name" : "Reward 1",
                 "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
                 "Icon" : null
@@ -718,9 +1364,9 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {"Description" : {"Id" : "ms_fp_KOTU_200_Complete",
-                "Name" : "ms_fp_KOTU_200_Complete",
-                "Details" : "200_Complete",
+        {"Description" : {"Id" : "ms_fp_KOTU_500_Complete",
+                "Name" : "ms_fp_KOTU_500_Complete",
+                "Details" : "500_Complete",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -757,7 +1403,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_201_Reward",
+                            "value" : "ms_fp_KOTU_501_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "itemCollection_KOTU_reward_2"
@@ -773,8 +1419,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_201_Reward",
+        {"Description" : {"Id" : "ms_fp_KOTU_501_Reward",
                 "Name" : "201_Reward",
                 "Details" : "KOTU_201_Reward",
                 "Icon" : null
@@ -838,10 +1483,9 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_300_Complete",
-                "Name" : "KOTU_300_Complete",
-                "Details" : "KOTU_300_Complete",
+        {"Description" : {"Id" : "ms_fp_KOTU_600_Complete",
+                "Name" : "KOTU_600_Complete",
+                "Details" : "KOTU_600_Complete",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -878,7 +1522,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_301_Reward",
+                            "value" : "ms_fp_KOTU_601_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "itemCollection_KOTU_reward_3"
@@ -894,10 +1538,9 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_301_Reward",
-                "Name" : "KOTU_301_Reward",
-                "Details" : "KOTU_301_Reward",
+        {"Description" : {"Id" : "ms_fp_KOTU_601_Reward",
+                "Name" : "KOTU_601_Reward",
+                "Details" : "KOTU_601_Reward",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -958,10 +1601,10 @@
             "Repeatable" : false,
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
-        },{
-            "Description" : {"Id" : "ms_fp_KOTU_400_Complete",
-                "Name" : "KOTU_400_Complete",
-                "Details" : "KOTU_400_Complete",
+        },
+        {"Description" : {"Id" : "ms_fp_KOTU_700_Complete",
+                "Name" : "KOTU_700_Complete",
+                "Details" : "KOTU_700_Complete",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -999,7 +1642,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_401_Reward",
+                            "value" : "ms_fp_KOTU_701_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "itemCollection_KOTU_MuseumPieces"
@@ -1015,8 +1658,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_401_Reward",
+        {"Description" : {"Id" : "ms_fp_KOTU_701_Reward",
                 "Name" : "KOTU_401_Reward",
                 "Details" : "KOTU_401_Reward",
                 "Icon" : null
@@ -1078,8 +1720,8 @@
             "Repeatable" : false,
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
-        },        {
-            "Description" : {"Id" : "ms_fp_KOTU_500_CancelFail_Complete",
+        },        
+        {"Description" : {"Id" : "ms_fp_KOTU_800_CancelFail_Complete",
                 "Name" : "KOTU_500_CancelFail_Complete",
                 "Details" : "KOTU_500_CancelFail_Complete",
                 "Icon" : null
@@ -1119,7 +1761,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_501_CancelFail",
+                            "value" : "ms_fp_KOTU_801_CancelFail",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
@@ -1136,8 +1778,121 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_501_CancelFail",
+        {"Description" : {"Id" : "ms_fp_KOTU_801_CancelFail",
+                "Name" : "KOTU_801_CancelFail",
+                "Details" : "KOTU_801_CancelFail",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [ {"Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Morale",
+                            "value" : "-5",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
+                    "Actions" : 
+                        [
+                            {
+                                "Type" : "System_ForceDropshipRoom",
+                                "value" : "Ship",
+                                "valueConstant" : null,
+                                "additionalValues" : [
+                                    "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },        
+        {"Description" : {"Id" : "ms_fp_KOTU_900_CancelFail_Complete",
+                "Name" : "KOTU_900_CancelFail_Complete",
+                "Details" : "KOTU_900_CancelFail_Complete",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {"Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [
+                            "flashpoint_KOTU_complete"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [
+                            "fp_killedSup_1",
+                            "fp_killedSup_2",
+                            "fp_killedZhao",
+                            "fp_mackieDestroyed"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_CompleteFlashpoint",
+                            "value" : "ms_fp_KOTU_901_CancelFail",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "CompletedWithoutReward"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {"Description" : {"Id" : "ms_fp_KOTU_901_CancelFail",
                 "Name" : "KOTU_501_CancelFail",
                 "Details" : "KOTU_501_CancelFail",
                 "Icon" : null
