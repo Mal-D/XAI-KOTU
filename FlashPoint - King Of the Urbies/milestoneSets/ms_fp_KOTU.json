@@ -100,7 +100,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_003_MissionSim",
+                            "value" : "ms_fp_KOTU_003_EarlyCancel",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -115,7 +115,7 @@
             "InvokeChance" : 0
         },
         {
-            "Description" : {"Id" : "ms_fp_KOTU_003_MissionSim",
+            "Description" : {"Id" : "ms_fp_KOTU_003_EarlyCancel",
                 "Name" : "Mission Sim",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -123,131 +123,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_KOTU_continue"
-                            ],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [{
-                        "typeString": "System.Int32",
-                        "name": "MackieCount",
-                        "value": "0",
-                        "set": true,
-                        "valueConstant": "0"
-                    }],
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_gridLock_uTech",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "",
-                                "05d2e43d-2256-4f59-9cab-047493ff7680",
-                                "c_fp_KOTU_assassinate",
-                                "ToppletiffHoldings",
-                                "NewFlakJackals",
-                                "6",
-                                "ms_fp_KOTU_004_Talk",
-                                null,
-                                "ms_fp_KOTU_004_Talk",
-                                null,
-                                null,
-                                null
-                            ]
-                        }
-                        ,
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                },
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_KOTU_continue_duel"
-                            ],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_AddContract",
-                            "value" : "mapStory_StoryEncounter9_vHigh",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "",
-                                "d9b711ac-2a6b-4236-86a8-61762a08f1ef",
-                                "c_fp_KOTU_SoloDuel_Zhao",
-                                "ToppletiffHoldings",
-                                "NewFlakJackals",
-                                "6",
-                                "ms_fp_KOTU_004_Talk",
-                                null,
-                                "ms_fp_KOTU_004_Talk",
-                                null,
-                                null,
-                                null
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -274,21 +150,10 @@
                 ,
                     "Actions" : [
                         {
-                            "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_KOTU_500_CancelFail_Complete",
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_900_CancelFail",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "itemCollection_loot_none",
-                                "CompletedWithoutReward"
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Ship",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
+                            "additionalValues" : null
                         }
                     ],
                     "ForceEvents" : null,
@@ -666,10 +531,10 @@
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
                                 "6",
-                                "ms_fp_KOTU_004_Talk",
+                                "ms_fp_KOTU_300_Talk",
+                                null,
                                 null,
                                 "ms_fp_KOTU_004_Talk",
-                                null,
                                 null,
                                 null
                             ]
@@ -787,10 +652,10 @@
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
                                 "6",
-                                "ms_fp_KOTU_004_Talk",
+                                "ms_fp_KOTU_300_Talk",
+                                null,
                                 null,
                                 "ms_fp_KOTU_004_Talk",
-                                null,
                                 null,
                                 null
                             ]
@@ -1835,9 +1700,9 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },        
-        {"Description" : {"Id" : "ms_fp_KOTU_900_CancelFail_Complete",
-                "Name" : "KOTU_900_CancelFail_Complete",
-                "Details" : "KOTU_900_CancelFail_Complete",
+        {"Description" : {"Id" : "ms_fp_KOTU_900_CancelFail",
+                "Name" : "KOTU_900_CancelFail",
+                "Details" : "KOTU_900_CancelFail",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -1878,9 +1743,15 @@
                             "value" : "ms_fp_KOTU_901_CancelFail",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                null,
+                                "itemCollection_loot_none",
                                 "CompletedWithoutReward"
                             ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Ship",
+                            "valueConstant" : null,
+                            "additionalValues" : null
                         }
                     ],
                     "ForceEvents" : null,
@@ -1893,8 +1764,8 @@
             "InvokeChance" : 0
         },
         {"Description" : {"Id" : "ms_fp_KOTU_901_CancelFail",
-                "Name" : "KOTU_501_CancelFail",
-                "Details" : "KOTU_501_CancelFail",
+                "Name" : "KOTU_901_CancelFail",
+                "Details" : "KOTU_901_CancelFail",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -1932,14 +1803,12 @@
                     "Actions" : 
                         [
                             {
-                                "Type" : "System_ForceDropshipRoom",
-                                "value" : "Ship",
-                                "valueConstant" : null,
-                                "additionalValues" : [
-                                    "BaseFlashpoint"
-                            ]
-                        }
-                    ],
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Ship",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                            }
+                        ],
                     "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
