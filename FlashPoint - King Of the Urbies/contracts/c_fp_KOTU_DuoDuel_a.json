@@ -1,76 +1,28 @@
 {
-  "ID": "c_fp_KOTU_SoloDuel_Zhao",
-  "contractName": "Johannas Zhao's final Lesson",
+  "ID": "c_fp_KOTU_DuoDuel_a",
+  "contractName": "Henry's Betrayal - a",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
   "weight": 1,
   "scope": "MID_CAMPAIGN",
-  "finalDifficulty": 0,
+  "finalDifficulty": 6,
   "representativeCastDefIDOverride": null,
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "The <i>{TEAM_TAR.FactionDef.Demonym}</i> need to be taught one final lesson. And {TEAM_EMP.FactionDef.Demonym} needs to see them brought to heel and have {COMPANY.CompanyName} cut the head off this particular snake.",
-  "longDescription": "With Johannas Zhao out of the running for the {TEAM_TAR.FactionDef.Demonym} leadership, there will be nothing to hold the {TEAM_TAR.FactionDef.Demonym} together. Poof! gone. ",
-  "salvagePotential": 2,
+  "shortDescription": "I'm finding it hard to take this serious. Why the {TEAM_TAR.FactionDef.Demonym} would even consider this action. There has to be another reason. Either way, we're stuck in a duel with two apparent {TEAM_TAR.FactionDef.Demonym} Pirates. How did Toppletiff even manage to mask this.",
+  "longDescription": "We'll need to make sure this action is quick and decisive. Looks like the MRB have sanctioned the action and are holding access to our accounts depending on the outcome. Be careful Commander.",
+  "salvagePotential": 4,
   "requirementList": [],
-  "OnContractSuccessResults": [
-    {
-        "Scope": "Company",
-        "Requirements": null,
-        "AddedTags": {
-            "items": ["fp_mackieDestroyed"],
-            "tagSetSourceFile": ""
-        },
-        "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-        },
-        "Stats": [{
-          "typeString": "System.Int32",
-          "name": "MackieCount",
-          "value": "4",
-          "set": false,
-          "valueConstant": "4"
-      }],
-        "Actions": [],
-        "ForceEvents": [],
-        "TemporaryResult": false,
-        "ResultDuration": 0
-    }
-],
-  "OnContractFailureResults": [
-    {
-        "Scope": "Company",
-        "Requirements": null,
-        "AddedTags": {
-            "items": ["fp_ZhaoEscapes"],
-            "tagSetSourceFile": ""
-        },
-        "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-        },
-        "Stats": [{
-          "typeString": "System.Int32",
-          "name": "FailCount",
-          "value": "2",
-          "set": true,
-          "valueConstant": "2"
-      }],
-        "Actions": [],
-        "ForceEvents": [],
-        "TemporaryResult": false,
-        "ResultDuration": 0
-    }
-],
+  "OnContractSuccessResults": [],
+  "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
-  "maxNumberOfPlayerUnits": 1,
+  "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": -1,
+  "lanceMaxTonnage": 100,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [-1, -1, -1, -1],
+  "mechMaxTonnages": [55, 55, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -78,18 +30,11 @@
       "contractObjective": {
         "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
       },
-      "title": "Take the Pirate Down",
+      "title": "Defeat Junior and Second",
       "description": "",
       "isPrimary": true,
       "forPlayer": "Player1",
       "objectiveGuids": ["a0b9c5b2-c594-4c5a-be1d-028a51c51519"]
-    },
-    {
-      "name": "Chunk_DisablePilotDeath",
-      "encounterChunk": {
-        "EncounterObjectGuid": "953a5930-06d0-4a2d-9840-e9a70c2a63ea"
-      },
-      "enableChunkFromContract": false
     }
   ],
   "objectiveList": [
@@ -97,34 +42,11 @@
       "objective": {
         "EncounterObjectGuid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
       },
-      "title": "Destroy or Disable the Mackie",
+      "title": "Defeat Pirate team.",
       "description": "",
       "isPrimary": true,
-      "OnSuccessResults" : [{
-        "Scope": "Company",
-        "Requirements": null,
-        "AddedTags": {
-            "items": ["fp_mackieDestroyed"],
-            "tagSetSourceFile": ""
-        },
-        "RemovedTags": {
-            "items": [],
-            "tagSetSourceFile": ""
-        },
-        "Stats": [{
-          "typeString": "System.Int32",
-          "name": "MackieCount",
-          "value": "4",
-          "set": false,
-          "valueConstant": "4"
-      }],
-        "Actions": [],
-        "ForceEvents": [],
-        "TemporaryResult": false,
-        "ResultDuration": 0
-    }
-],
-      "OnFailureResults" : [],
+      "OnSuccessResults": [],
+      "OnFailureResults": [],
       "OnSuccessDialogueGUID": null,
       "OnFailureDialogueGUID": null
     }
@@ -137,7 +59,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "ed007c52-f4cb-4bfc-842a-a50454d8a82a"
       },
-      "enableChunkFromContract": false
+      "enableChunkFromContract": true
     }
   ],
   "cameraFocusHelperList": [
@@ -163,7 +85,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "There he is Commander. Good luck.",
+          "words": "Ready up, Commander.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -179,55 +101,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Remember what I said about the Manufacturer's Note - 'was never fully fitted for actual Combat'.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_YangDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Do you think Zhao knows that?",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_FarahDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Oh I doubt it. What user actually reads the accompanying makers Manual, and especially not while stealing said equipment.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_YangDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Hit him hard Commander. I don't think Zhao knows the danger he's in.",
+          "words": "It's unfortunate how this has turned out but it us or them. Sort 'Junior' out then let's get out of here.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -252,7 +126,22 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Commander, you have done it. The others are signaling their surrender.",
+          "words": "Now {TEAM_EMP.FactionDef.Name} have not a leg to stand on. Reports of this duel seem to have drawn a bit of attention.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },{
+          "words": "Seems {TEAM_EMP.FactionDef.Name} has been forced to comply. We have received confirmation of account re-activation.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -266,73 +155,8 @@
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },
-        {
-          "words": "I don't think Toppletiff will be too happy about his 'Custom' 'Mech but, our bank balance will look much healthier.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_DariusDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "You... you thugs... do you know what you have done?",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_henryT",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Probably saved your family from irrepairable policical fallout considering your 'Mech was not what they would be concerned about.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_DariusDefault",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "I will find you and I will extract reparations for the damage you have caused. My father won't be able to protect you.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_henryT",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Going back to issuing pointless duels, are we? (sigh)....",
+        },{
+          "words": "Time to leave Commander. Before the vultures come to pick over the {TEAM_EMP.FactionDef.Name} carcass.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -357,14 +181,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-					"words": "Well, well, well. How the mighty have fallen! I think I will keep this 'Mech.",
+          "words": "This isn't how it should have turned out, Commander. Now we'll have to let the MRB Tribunal make a desision.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-					"selectedCastDefId": "castDef_johannasZ",
+          "selectedCastDefId": "castDef_DariusDefault",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -382,7 +206,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Please don't mark the paintwork - it took years to find the right artist.",
+          "words": "I will be the 'King of these Urbies' and you will never see your money again.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -396,48 +220,30 @@
           "cameraDistance": "Close",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },
-        {
-          "words": "Don't worry <i>simpleton</i> it won't be your concern any longer. Come Commander, let's dance.",
+        },{
+          "words": "Come on Junior, let's not play these school yard games. There are no safety nets here. All battle safeties are disabled.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_johannasZ",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
-          "cameraDistance": "Close",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Johannas, are you sure you don't want to check your Armo...",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_FarahDefault",
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },
-        {
-          "words": "Enough talk!! Commander, Prepare yourself.",
+        },{
+          "words": "My name IS NOT <i>JUNIOR!</i> I am destined for greater things than this. This is just the beginning.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_johannasZ",
+          "selectedCastDefId": "castDef_henryT",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
@@ -451,7 +257,7 @@
   "extractionOverrideList": [],
   "overwriteMissionCompleteWhenAutoComplete": true,
   "overrideAutoCompleteDialogueId": null,
-  "disableNegotations": false,
+  "disableNegotations": true,
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
   "disableAfterAction": false,
@@ -526,6 +332,39 @@
             "selectedUnitType": "UNDEFINED",
             "selectedUnitDefId": null,
             "selectedPilotDefId": null
+          },
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "5df48a48-1840-49b0-84e9-126847053afa"
+            },
+            "customUnitName": null,
+            "customHeraldryDefId": null,
+            "unitType": "Mech",
+            "unitDefId": "mechDef_None",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilotDef_InheritLance",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": null,
+            "selectedPilotDefId": null
           }
         ]
       }
@@ -564,7 +403,7 @@
         "lanceSpawner": {
           "EncounterObjectGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
         },
-        "name": "Lance_Zhao_Mackie",
+        "name": "Lance_Enemy",
         "lanceDefId": "Manual",
         "lanceTagSet": {
           "items": [],
@@ -586,10 +425,10 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
             },
-            "customUnitName": "Zhao's Mech",
-            "customHeraldryDefId": "",
+            "customUnitName": "Junior",
+            "customHeraldryDefId": "heraldrydef_flackJackals_Alt",
             "unitType": "Mech",
-            "unitDefId": "mechdef_mackie_MSK-X10",
+            "unitDefId": "mechdef_mackie_MSK-6S",
             "unitTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/UnitTags"
@@ -599,10 +438,43 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": ["spawn_poorly_maintained_50"],
+              "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilot_johannasZ",
+            "pilotDefId": "pilot_d5_gunner",
+            "pilotTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "pilotExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/PilotTags"
+            },
+            "selectedUnitType": "UNDEFINED",
+            "selectedUnitDefId": "",
+            "selectedPilotDefId": ""
+          },
+          {
+            "unitSpawnPoint": {
+              "EncounterObjectGuid": "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
+            },
+            "customUnitName": "City Guard",
+            "customHeraldryDefId": "heraldrydef_flackJackals_Alt",
+            "unitType": "Mech",
+            "unitDefId": "mechdef_urbanmech_UM-R60S",
+            "unitTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "unitExcludedTagSet": {
+              "items": [],
+              "tagSetSourceFile": "tags/UnitTags"
+            },
+            "spawnEffectTags": {
+              "items": [],
+              "tagSetSourceFile": "tags/SpawnEffectTags"
+            },
+            "pilotDefId": "pilot_d5_gunner",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
@@ -657,5 +529,5 @@
     "teamLeaderCastDefId": "castDef_TeamLeader_Current",
     "lanceOverrideList": []
   },
-  "contractTypeID": "SoloDuel"
+  "contractTypeID": "DuoDuel"
 }
