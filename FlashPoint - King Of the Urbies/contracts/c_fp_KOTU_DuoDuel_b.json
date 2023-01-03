@@ -256,7 +256,7 @@
   "extractionOverrideList": [],
   "overwriteMissionCompleteWhenAutoComplete": true,
   "overrideAutoCompleteDialogueId": null,
-  "disableNegotations": false,
+  "disableNegotations": true,
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
   "disableAfterAction": false,
@@ -405,7 +405,7 @@
         "name": "Lance_Enemy",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_dynamic_difficulty"],
+          "items": ["lancedef_mech_dynamic_taurian"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {

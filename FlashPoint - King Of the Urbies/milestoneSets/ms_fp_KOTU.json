@@ -124,6 +124,40 @@
             "Requirements" : [],
             "Results" : [
                 {"Scope" : "Company",
+                "Requirements" : {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : ["fp_KOTU_cancel"],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                },
+                "AddedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" :[],
+                "Actions" : [
+                    {
+                        "Type" : "Flashpoint_SetNextMilestone",
+                        "value" : "ms_fp_KOTU_004_Talk",
+                        "valueConstant" : null,
+                        "additionalValues" : null
+                    }
+                ],
+                "ForceEvents" : null,
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
+                },
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -213,7 +247,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_005_RewardBranch",
+                            "value" : "ms_fp_KOTU_005_Branch",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -261,7 +295,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_005_RewardBranch",
+                            "value" : "ms_fp_KOTU_005_Branch",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -357,10 +391,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "ODS2_launchPath-B",
+                            "value" : "Let's go get us a Snake.",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "ODS2_launchPath-B",
+                                "ZhaoDuel Path",
                                 "castDef_DariusDefault"
                             ]
                         },
@@ -411,7 +445,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ODS2_launch_800_Cancel-Complete",
+                            "value" : "ms_fp_KOTU_800_Cancel",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -459,6 +493,15 @@
                     },
                     "Stats" : null,
                     "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "Shake rattle and roll.",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "It's an Urbie Fest.",
+                                "castDef_YangDefault"
+                            ]
+                        },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_KOTU_101_Mission",
@@ -746,8 +789,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -758,7 +800,14 @@
                             "items" : [],
                             "tagSetSourceFile" : ""
                         },
-                        "RequirementComparisons" : []
+                        "RequirementComparisons" : [
+							{
+								"obj": "MackieCount",
+								"op": "GreaterThanOrEqual",
+								"val": 7,
+								"valueConstant": "7"
+							}
+						]
                     },
                     "AddedTags" : {
                         "items" : [],
@@ -771,19 +820,86 @@
                     "Stats" : [],
                     "Actions" : [
                         {"Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_gridLock_uTech",
+                            "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "05d2e43d-2256-4f59-9cab-047493ff7680",
-                                "c_fp_KOTU_assassinate",
+                                "c75403b3-e3a4-4ddc-992a-f6fca3b487d9",
+                                "c_fp_KOTU_DuoDuel_b",
                                 "ToppletiffHoldings",
                                 "NewFlakJackals",
                                 "6",
-                                "ms_fp_KOTU_004_Talk",
+                                "ms_fp_KOTU_302_Talk",
                                 null,
-                                "ms_fp_KOTU_004_Talk",
                                 null,
+                                "ms_fp_KOTU_302_Talk",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },                
+                {"Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : [
+							{
+								"obj": "MackieCount",
+								"op": "GreaterThanOrEqual",
+								"val": 4,
+								"valueConstant": "4"
+							},
+							{
+								"obj": "MackieCount",
+								"op": "LessThanOrEqual",
+								"val": 6,
+								"valueConstant": "6"
+							}
+						]
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [
+                        {"Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_cityCenter_uTech",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "c75403b3-e3a4-4ddc-992a-f6fca3b487d9",
+                                "c_fp_KOTU_DuoDuel_a",
+                                "ToppletiffHoldings",
+                                "NewFlakJackals",
+                                "6",
+                                "ms_fp_KOTU_302_Talk",
+                                null,
+                                null,
+                                "ms_fp_KOTU_302_Talk",
                                 null,
                                 null
                             ]
@@ -1095,7 +1211,7 @@
                 "Stats" : null,
                 "Actions" : [
                     { "Type" : "Flashpoint_SetNextMilestone",
-                        "value" : "ms_fp_KOTU_800_CancelFail_Complete",
+                        "value" : "ms_fp_KOTU_800_Cancel",
                         "valueConstant" : null,
                         "additionalValues" : null
                     }
@@ -1586,9 +1702,9 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },        
-        {"Description" : {"Id" : "ms_fp_KOTU_800_CancelFail_Complete",
-                "Name" : "KOTU_500_CancelFail_Complete",
-                "Details" : "KOTU_500_CancelFail_Complete",
+        {"Description" : {"Id" : "ms_fp_KOTU_800_Cancel",
+                "Name" : "ms_fp_KOTU_800_Cancel",
+                "Details" : "ms_fp_KOTU_800_Cancel",
                 "Icon" : null
             },
             "Scope" : "Company",
