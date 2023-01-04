@@ -56,7 +56,7 @@
           "typeString": "System.Int32",
           "name": "FailCount",
           "value": "2",
-          "set": true,
+          "set": false,
           "valueConstant": "2"
       }],
         "Actions": [],
@@ -451,7 +451,7 @@
   "extractionOverrideList": [],
   "overwriteMissionCompleteWhenAutoComplete": true,
   "overrideAutoCompleteDialogueId": null,
-  "disableNegotations": false,
+  "disableNegotations": true,
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
   "disableAfterAction": false,

@@ -194,7 +194,34 @@
                     "ResultDuration" : 0
                 }
 			],
-            "OnFailureResults" : [],
+            "OnFailureResults" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : 
+							["fp_ZhaoEscapes"],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [ 
+                            {
+                            "typeString": "System.Int32",
+                            "name": "FailCount",
+                            "value": "1",
+                            "set": false,
+                            "valueConstant": "1"
+                            }
+                    ],
+                    "Actions" : [],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
             "OnSuccessDialogueGUID" : null,
             "OnFailureDialogueGUID" : null
         },
@@ -221,13 +248,14 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [
+                    "Stats" : [ 
+                        
                         {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.2",
-                            "set" : false,
-                            "valueConstant" : null
+                        "typeString" : "System.Single",
+                        "name" : "ContractBonusRewardPct",
+                        "value" : "-0.2",
+                        "set" : false,
+                        "valueConstant" : null
                         }
                     ],
                     "Actions" : [],
@@ -259,13 +287,6 @@
                         "value" : "-0.2",
                         "set" : false,
                         "valueConstant" : null
-                    },
-                    {
-                        "typeString": "System.Int32",
-                        "name": "FailCount",
-                        "value": "1",
-                        "set": true,
-                        "valueConstant": "1"
                     }
                 ],
                 "Actions" : [],
@@ -296,51 +317,8 @@
             "title" : "Stop the Usurper from Escaping",
             "description" : "If he stays Kill him. If he runs, well....",
             "isPrimary" : true,
-            "OnSuccessResults" : 
-            [
-                {
-                "Scope" : "Company",
-                "Requirements" : null,
-                "AddedTags" : {
-                    "items" : 
-                        ["fp_ZhaoAssassinated"],
-                    "tagSetSourceFile" : ""
-                },
-                "RemovedTags" : {
-                    "items" : [],
-                    "tagSetSourceFile" : ""
-                },
-                "Stats" : [],
-                "Actions" : [],
-                "ForceEvents" : [],
-                "TemporaryResult" : false,
-                "ResultDuration" : 0
-                }
-            ],
-            "OnFailureResults" : [{
-                "Scope" : "Company",
-                "Requirements" : null,
-                "AddedTags" : {
-                    "items" : 
-                        ["fp_ZhaoEscapes","fp_KOTU_Continue_fail"],
-                    "tagSetSourceFile" : ""
-                },
-                "RemovedTags" : {
-                    "items" : ["fp_KOTU_Continue"],
-                    "tagSetSourceFile" : ""
-                },
-                "Stats" : [{
-                    "typeString": "System.Int32",
-                    "name": "FailCount",
-                    "value": "1",
-                    "set": false,
-                    "valueConstant": "1"
-                }],
-                "Actions" : [],
-                "ForceEvents" : [],
-                "TemporaryResult" : false,
-                "ResultDuration" : 0
-                }],
+            "OnSuccessResults" :[],
+            "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : null,
             "OnFailureDialogueGUID" : null
         },

@@ -156,7 +156,59 @@
                     "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
-                },               
+                },     
+                {
+                    "Scope" : "Flashpoint",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : 
+                        [
+                            {
+                                "obj": "FailCount",
+                                "op": "Equal",
+                                "val": 3,
+                                "valueConstant": "3"
+                            }
+                        ]
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "Let's get out of this shit show.",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "Failed Too Many Times.",
+                                "castDef_YangDefault"
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_KOTU_800_Cancel",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },      
                 {
                     "Scope" : "Flashpoint",
                     "Requirements" : {
@@ -1831,6 +1883,15 @@
                     ],
                     "Actions" : 
                         [
+                            {
+                                "Type" : "System_PauseNotification",
+                                "value" : "Well, that was embarrassing.",
+                                "valueConstant" : null,
+                                "additionalValues" : [
+                                    "Failed Too Many Times.",
+                                    "castDef_YangDefault"
+                                ]
+                            },
                             {
                                 "Type" : "System_ForceDropshipRoom",
                                 "value" : "Ship",
