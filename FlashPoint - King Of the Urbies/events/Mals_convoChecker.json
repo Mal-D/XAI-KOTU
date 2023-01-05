@@ -48,7 +48,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "1- Holodesk Chatter Checker",
-                        "Details" : "Holodesk Chatter Checker",
+                        "Details" : "fp_Assassinated and set MC to 5",
                         "Icon" : null
                     },
                     "Weight" : 100,
@@ -57,14 +57,21 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : [],
+                                "items" : ["fp_Assassinated"],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
                                 "tagSetSourceFile" : ""
                             },
-                            "Stats" : [],
+                            "Stats" : 
+                            [{
+                                "typeString": "System.Int32",
+                                "name": "MackieCount",
+                                "value": "5",
+                                "set": true,
+                                "valueConstant": "5"
+                            }],
                             "Actions" : [
                                 {
                                     "Type" : "System_SimGameCharacterVisible",
@@ -78,7 +85,7 @@
                                 },
                                 {
                                     "Type" : "System_StartConversation",
-                                    "value" : "5b3e8fa06230358809000086",
+                                    "value" : "9c1a675a313324de25bc7600",
                                     "valueConstant" : null,
                                     "additionalValues" : [
                                         "Headhunting 1 - Conversation",

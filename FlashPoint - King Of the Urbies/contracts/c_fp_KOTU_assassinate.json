@@ -164,7 +164,8 @@
                     "AddedTags" : {
                         "items" : 
 							[
-						"fp_killedZhao"
+                            "fp_Assassinated",
+						    "fp_killedZhao"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -240,7 +241,7 @@
                     "AddedTags" : {
                         "items" : 
 							[
-						"fp_Assassinated"
+						    "fp_Assassinated"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -271,9 +272,7 @@
                 "Requirements" : null,
                 "AddedTags" : {
                     "items" : 
-                        [
-                            "fp_ZhaoEscapes"
-                        ],
+                        [],
                     "tagSetSourceFile" : ""
                 },
                 "RemovedTags" : {

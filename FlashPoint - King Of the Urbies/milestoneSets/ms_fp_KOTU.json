@@ -422,10 +422,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "fp_KOTU_continue",
+                            "value" : "005_Branch BigBattle",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "fp_KOTU_continue",
+                                "005_Branch",
                                 "castDef_DariusDefault"
                             ]
                         },
@@ -467,10 +467,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "Let's go get us a Snake.",
+                            "value" : "005_Branch Zhao Duel.",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "fp_KOTU_continue_duel",
+                                "005_Branch Zhao Duel",
                                 "castDef_YangDefault"
                             ]
                         },
@@ -571,7 +571,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "Shake rattle and roll.",
+                            "value" : "100_Setup - UrbieFest",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "It's an Urbie Fest.",
@@ -710,10 +710,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "Snake, rattle and roll.",
+                            "value" : "200_Setup - Snake, rattle and roll.",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Snake, rattle and roll.",
+                                "It's Duelin' time - Snake, rattle and roll.",
                                 "castDef_YangDefault"
                             ]
                         },
@@ -841,11 +841,11 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9ce546de4eb4e331c5e08847",
+                            "value" : "9c1a675a313324de25bc7600",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "{TGT_FLASHPOINT.Def.Description.Name} III",
+                                "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]
@@ -895,7 +895,7 @@
 						]
                     },
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KUTO_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -931,7 +931,16 @@
                             ]
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" :
+                    [{
+                        "Scope" : "Company",
+                        "EventID" : "fp_KUTO_forceFinal",
+                        "MinDaysWait" : 5,
+                        "MaxDaysWait" : 5,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                    }] 
+                ,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },                
@@ -962,7 +971,7 @@
 						]
                     },
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KUTO_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -998,7 +1007,14 @@
                             ]
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : [{
+                        "Scope" : "Company",
+                        "EventID" : "fp_KUTO_forceFinal",
+                        "MinDaysWait" : 5,
+                        "MaxDaysWait" : 5,
+                        "Probability" : 100,
+                        "RetainPilot" : false
+                    }],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -1047,8 +1063,8 @@
                             "value" : "[Enter Conversation here]",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "Junior Taught a Lesson \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Junior Taught a Lesson - {TGT_FLASHPOINT.Def.Description.Name} II",
+                                "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]
@@ -1096,7 +1112,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
-                                "Junior Gloats. \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
