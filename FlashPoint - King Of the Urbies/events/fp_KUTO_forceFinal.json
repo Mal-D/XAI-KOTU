@@ -35,28 +35,14 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "items" : [],
+                        "items" : ["fp_Assassinated"],
                         "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "RequirementComparisons" : 
-                    [
-                        {
-                            "obj": "MackieCount",
-                            "op": "GreaterThanOrEqual",
-                            "val": 4,
-                            "valueConstant": "4"
-                        },
-                        {
-                            "obj": "MackieCount",
-                            "op": "LessThanOrEqual",
-                            "val": 6,
-                            "valueConstant": "6"
-                        }
-                    ]
+                    "RequirementComparisons" :[]
                 }
             ],
             "ResultSets" : [
@@ -142,7 +128,7 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "items" : [],
+                        "items" : ["fp_mackieDestroyed"],
                         "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
@@ -150,12 +136,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : 
-                    [{
-                        "obj": "MackieCount",
-                        "op": "GreaterThanOrEqual",
-                        "val": 7,
-                        "valueConstant": "7"
-                    }]
+                    []
                 }
             ],
             "ResultSets" : [
@@ -178,7 +159,7 @@
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : [],
+                                "items" : ["fp_KUTO_forceFinal_on"],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -202,8 +183,7 @@
                                     null,
                                     null
                                 ]
-                                },
-                                {
+                                },{
                                     "Type" : "System_ResetContracts",
                                     "value" : "c_fp_KOTU_DuoDuel_b",
                                     "valueConstant" : null,

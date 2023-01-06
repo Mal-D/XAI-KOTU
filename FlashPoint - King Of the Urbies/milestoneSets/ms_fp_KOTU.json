@@ -878,21 +878,14 @@
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
-                            "items" : [],
+                            "items" : ["fp_mackieDestroyed"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
                         },
-                        "RequirementComparisons" : [
-							{
-								"obj": "MackieCount",
-								"op": "GreaterThanOrEqual",
-								"val": 7,
-								"valueConstant": "7"
-							}
-						]
+                        "RequirementComparisons" : []
                     },
                     "AddedTags" : {
                         "items" : ["fp_KUTO_forceFinal_on"],
@@ -948,27 +941,14 @@
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
-                            "items" : [],
+                            "items" : ["fp_Assassinated"],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
                         },
-                        "RequirementComparisons" : [
-							{
-								"obj": "MackieCount",
-								"op": "GreaterThanOrEqual",
-								"val": 4,
-								"valueConstant": "4"
-							},
-							{
-								"obj": "MackieCount",
-								"op": "LessThanOrEqual",
-								"val": 6,
-								"valueConstant": "6"
-							}
-						]
+                        "RequirementComparisons" : []
                     },
                     "AddedTags" : {
                         "items" : ["fp_KUTO_forceFinal_on"],
@@ -1415,14 +1395,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "4000000",
+                            "value" : "500000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "4",
+                            "value" : "-2",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1502,8 +1482,8 @@
             "InvokeChance" : 0
         },
         {"Description" : {"Id" : "ms_fp_KOTU_501_Reward",
-                "Name" : "201_Reward",
-                "Details" : "KOTU_201_Reward",
+                "Name" : "501_Reward",
+                "Details" : "KOTU_501_Reward",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -1534,14 +1514,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "2000000",
+                            "value" : "200000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "2",
+                            "value" : "-1",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1653,7 +1633,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "1000000",
+                            "value" : "700000",
                             "set" : false,
                             "valueConstant" : null
                         },
@@ -1741,8 +1721,8 @@
             "InvokeChance" : 0
         },
         {"Description" : {"Id" : "ms_fp_KOTU_701_Reward",
-                "Name" : "KOTU_401_Reward",
-                "Details" : "KOTU_401_Reward",
+                "Name" : "701_Reward",
+                "Details" : "701_Reward",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -1772,14 +1752,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "10000000",
+                            "value" : "1500000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "5",
+                            "value" : "2",
                             "set" : false,
                             "valueConstant" : null
                         }

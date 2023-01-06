@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_hillaryT",
+    "internalName" : "secretary",
+    "firstName" : "Hillary",
+    "lastName" : "Toppletiff",
+    "callsign" : "",
+    "rank" : "",
+    "gender" : "Female",
+    "factionID" : "ToppletiffHoldings",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/XAI Flashpoints/Flashpoint - King of the Urbies/sprites/Portraits/guiTrxPort_secretary.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

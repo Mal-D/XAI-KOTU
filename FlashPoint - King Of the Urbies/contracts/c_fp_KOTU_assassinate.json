@@ -12,11 +12,43 @@
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
     "shortDescription" : "The Hunt of the front runner of the remaining Flak Jackals vying for the Boss's position and will be fight to be the last. Unless, of course like all blowhards, will run to save their own skin.",
-    "longDescription" : "Remember, the Custom <i>Mackie</i> is a 'Glass Cannon' but, that doesn't mean to treat it with distain. It can still kill you.",
-    "salvagePotential" : 20,
+    "longDescription" : "Assassinate Johannas Zhao and EXFIL. The Custom <i>Mackie</i> is a 'Glass Cannon' but, Stand still in front of, it can still kill you.",
+    "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
-    "OnContractFailureResults" : [],
+    "OnContractFailureResults" : [{
+        "Scope" : "Company",
+        "Requirements" : null,
+        "AddedTags" : {
+            "items" : 
+                ["fp_ZhaoEscapes"],
+            "tagSetSourceFile" : ""
+        },
+        "RemovedTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "Stats" : [ 
+                {
+                "typeString": "System.Int32",
+                "name": "FailCount",
+                "value": "1",
+                "set": false,
+                "valueConstant": "1"
+                },
+                {
+                "typeString": "System.Int32",
+                "name": "MackieCount",
+                "value": "0",
+                "set": true,
+                "valueConstant": "0"
+                }
+        ],
+        "Actions" : [],
+        "ForceEvents" : [],
+        "TemporaryResult" : false,
+        "ResultDuration" : 0
+    }],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
@@ -33,15 +65,15 @@
         -1,
         -1
     ],
-    "mapMood" : "",
-    "startingFogOfWarVisibility" : "Surveyed",
+    "mapMood" : "UrbanSunsetFoggy",
+    "startingFogOfWarVisibility" : "Unknown",
     "contractObjectiveList" : [
         {
             "contractObjective" : {
                 "EncounterObjectGuid" : "edafecaf-4d24-4304-98b1-9e645898c6ee"
             },
-            "title" : "Defeat the Usurper and Escape",
-            "description" : "",
+            "title" : "Get Johannas Zhao and EXFIL",
+            "description" : "Assassinate and EXFIL",
             "isPrimary" : true,
             "forPlayer" : "Player1",
             "objectiveGuids" : [
@@ -215,6 +247,13 @@
                             "value": "1",
                             "set": false,
                             "valueConstant": "1"
+                            },
+                            {
+                            "typeString": "System.Int32",
+                            "name": "MackieCount",
+                            "value": "0",
+                            "set": true,
+                            "valueConstant": "0"
                             }
                     ],
                     "Actions" : [],

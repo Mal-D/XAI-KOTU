@@ -52,13 +52,22 @@
             "items": [],
             "tagSetSourceFile": ""
         },
-        "Stats": [{
+        "Stats": [
+          {
           "typeString": "System.Int32",
           "name": "FailCount",
           "value": "2",
           "set": false,
           "valueConstant": "2"
-      }],
+          },
+          {
+            "typeString": "System.Int32",
+            "name": "MackieCount",
+            "value": "0",
+            "set": true,
+            "valueConstant": "0"
+          }
+        ],
         "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
@@ -111,13 +120,7 @@
             "items": [],
             "tagSetSourceFile": ""
         },
-        "Stats": [{
-          "typeString": "System.Int32",
-          "name": "MackieCount",
-          "value": "4",
-          "set": false,
-          "valueConstant": "4"
-      }],
+        "Stats": [],
         "Actions": [],
         "ForceEvents": [],
         "TemporaryResult": false,
