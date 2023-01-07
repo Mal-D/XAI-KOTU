@@ -1,6 +1,6 @@
 {
     "Description" : {
-        "Id" : "fp_KUTO_forceFinal",
+        "Id" : "fp_KOTU_forceFinal",
         "Name" : "DUEL COMBAT DROP",
         "Details" : "Sorry Yang, we have to drop with what we have ready.",
         "Icon" : "uixTxrSpot_YangWorking.png"
@@ -10,12 +10,12 @@
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
-            "items" : ["fp_KUTO_forceFinal_on"],
+            "items" : ["fp_KOTU_forceFinal_on"],
             "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : [
-                "fp_KUTO_forceFinal_off"
+                "fp_KOTU_forceFinal_off"
             ],
             "tagSetSourceFile" : ""
         },
@@ -60,12 +60,12 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [
-                                    "fp_KUTO_forceFinal_off"
+                                    "fp_KOTU_forceFinal_off"
                                 ],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : ["fp_KUTO_forceFinal_on"],
+                                "items" : ["fp_KOTU_forceFinal_on"],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -78,7 +78,7 @@
                                     [
                                     "",
                                     "c75403b3-e3a4-4ddc-992a-f6fca3b487d9",
-                                    "c_fp_KOTU_DuoDuel_a",
+                                    "c_fp_KOTU_DuoDuel_a_1",
                                     "ToppletiffHoldings",
                                     "NewFlakJackals",
                                     "6",
@@ -154,12 +154,12 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [
-                                    "fp_KUTO_forceFinal_off"
+                                    "fp_KOTU_forceFinal_off"
                                 ],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : ["fp_KUTO_forceFinal_on"],
+                                "items" : ["fp_KOTU_forceFinal_on"],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -172,7 +172,7 @@
                                 [
                                     "",
                                     "3c5ba39d-2afa-49d5-a279-299abd0df880",
-                                    "c_fp_KOTU_DuoDuel_b",
+                                    "c_fp_KOTU_DuoDuel_b_1",
                                     "ToppletiffHoldings",
                                     "NewFlakJackals",
                                     "6",

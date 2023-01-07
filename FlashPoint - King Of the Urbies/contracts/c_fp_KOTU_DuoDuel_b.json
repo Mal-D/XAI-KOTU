@@ -15,12 +15,50 @@
   "longDescription": "We'll need to make sure this action is quick and decisive. Looks like the MRB have sanctioned the action and are holding access to our accounts depending on the outcome. Be careful Commander.",
   "salvagePotential": 4,
   "requirementList": [],
-  "OnContractSuccessResults": [],
-  "OnContractFailureResults": [],
+  "OnContractSuccessResults": 
+  [
+    {
+    "Scope": "Company",
+    "Requirements": null,
+    "AddedTags": {
+        "items": ["fp_KOTU_WonDuel"],
+        "tagSetSourceFile": ""
+    },
+    "RemovedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "Stats": [],
+    "Actions": [],
+    "ForceEvents": [],
+    "TemporaryResult": false,
+    "ResultDuration": 0
+    }
+  ],
+  "OnContractFailureResults": 
+  [
+    {
+    "Scope": "Company",
+    "Requirements": null,
+    "AddedTags": {
+        "items": ["fp_KOTU_LostDuel"],
+        "tagSetSourceFile": ""
+    },
+    "RemovedTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "Stats": [],
+    "Actions": [],
+    "ForceEvents": [],
+    "TemporaryResult": false,
+    "ResultDuration": 0
+    }
+  ],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": 90,
+  "lanceMaxTonnage": 120,
   "mechMinTonnages": [-1, -1, -1, -1],
   "mechMaxTonnages": [65, 65, -1, -1],
   "mapMood": null,
@@ -258,7 +296,7 @@
   "overrideAutoCompleteDialogueId": null,
   "disableNegotations": true,
   "disableLanceConfiguration": false,
-  "disableCancelButton": true,
+  "disableCancelButton": false,
   "disableAfterAction": false,
   "contractRewardOverride": -1,
   "travelOnly": false,
@@ -405,7 +443,7 @@
         "name": "Lance_Enemy",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lancedef_mech_dynamic_taurian"],
+          "items": ["lancedef_mechONLY_dynamic_taurian"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {

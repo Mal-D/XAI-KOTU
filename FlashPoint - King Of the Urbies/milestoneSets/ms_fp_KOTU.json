@@ -54,8 +54,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_002_Talk",
+        {"Description" : {"Id" : "ms_fp_KOTU_002_Talk",
                 "Name" : "Mission Sim",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -113,8 +112,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {"Id" : "ms_fp_KOTU_003_EarlyCancel",
+        {"Description" : {"Id" : "ms_fp_KOTU_003_EarlyCancel",
                 "Name" : "Talk",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -385,9 +383,7 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-        {
-            "Description" : {
-                "Id" : "ms_fp_KOTU_005_Branch",
+        {"Description" : {"Id" : "ms_fp_KOTU_005_Branch",
                 "Name" : "Branch",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -888,7 +884,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : ["fp_KUTO_forceFinal_on"],
+                        "items" : ["fp_KOTU_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -927,7 +923,7 @@
                     "ForceEvents" :
                     [{
                         "Scope" : "Company",
-                        "EventID" : "fp_KUTO_forceFinal",
+                        "EventID" : "fp_KOTU_forceFinal",
                         "MinDaysWait" : 5,
                         "MaxDaysWait" : 5,
                         "Probability" : 100,
@@ -951,7 +947,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : ["fp_KUTO_forceFinal_on"],
+                        "items" : ["fp_KOTU_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -989,7 +985,7 @@
                     ],
                     "ForceEvents" : [{
                         "Scope" : "Company",
-                        "EventID" : "fp_KUTO_forceFinal",
+                        "EventID" : "fp_KOTU_forceFinal",
                         "MinDaysWait" : 5,
                         "MaxDaysWait" : 5,
                         "Probability" : 100,
@@ -1029,21 +1025,31 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KOTU_forceFinal_off"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KOTU_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
                     "Actions" : [
                         {
+                            "Type" : "System_PauseNotification",
+                            "value" : "Duel Results - fp_KOTU_WonDuel",
+                            "valueConstant" : null,
+                            "additionalValues" : 
+                            [
+                            "That was a tough one Boss.",
+                            "castDef_SurmireDefault"
+                            ]
+                        },
+                        {
                             "Type" : "System_StartConversation",
-                            "value" : "[Enter Conversation here]",
+                            "value" : "9ceb8128583ad85a77699112",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Junior Taught a Lesson - {TGT_FLASHPOINT.Def.Description.Name} II",
+                                "Epilogue - {TGT_FLASHPOINT.Def.Description.Name} II",
                                 "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
@@ -1077,21 +1083,31 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KOTU_forceFinal_off"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KOTU_forceFinal_on"],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
                     "Actions" : [
                         {
+                            "Type" : "System_PauseNotification",
+                            "value" : "Duel Results - fp_KOTU_LostDuel",
+                            "valueConstant" : null,
+                            "additionalValues" : 
+                            [
+                            "Damn, that was unexpected",
+                            "castDef_SurmireDefault"
+                            ]
+                        },
+                        {
                             "Type" : "System_StartConversation",
-                            "value" : "[Enter Convo ID here]",
+                            "value" : "9ceb8128583ad85a77699112",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "Epilogue - {TGT_FLASHPOINT.Def.Description.Name}",
                                 "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
