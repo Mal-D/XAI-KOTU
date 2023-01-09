@@ -401,8 +401,8 @@
   "useTravelCostPenalty": false,
   "usesExpiration": false,
   "expirationTimeOverride": -1,
-  "negotiatedSalary": 0,
-  "negotiatedSalvage": 0,
+  "negotiatedSalary": 1,
+  "negotiatedSalvage": 0.5,
   "excludedFromProceduralGeneration": true,
   "player1Team": {
     "encounterLayerData": {
