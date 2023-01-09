@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_DuoDuel_b",
-  "contractName": "Henry's Betrayal - b",
+  "contractName": "Henry's Betrayal - b..a",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -58,9 +58,9 @@
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": 120,
+  "lanceMaxTonnage": 80,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [65, 65, -1, -1],
+  "mechMaxTonnages": [40, 40, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -147,6 +147,38 @@
             "a": 1
           },
           "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },        
+        {
+          "words": "You called it Commander. Sensors are picking up Heavy/Assault Class fusion and Seismic signatures.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "True colours showing though, hey Junior? A scumbag to end.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -243,7 +275,23 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Did you think I was without means to face you? I have been training for this for a very long time.",
+          "words": "Couldn't help yourself could you Junior? ",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "I was not about to gamble my heritige away on an outdated Dueling Code of honor.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -257,8 +305,25 @@
           "cameraDistance": "Close",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },{
-          "words": "Come on Junior, let's not play these school yard games. There are no safety nets here. You are not ready for this.",
+        },
+        {
+          "words": "I will be the 'King of these Urbies' and you will never see your money again.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_henryT",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Come on Junior, let's not play these school yard games. There are no safety nets here. All battle safeties are disabled.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -272,7 +337,8 @@
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },{
+        },
+        {
           "words": "My name IS NOT <i>JUNIOR!</i> I am destined for greater things than this. This is just the beginning.",
           "wordsColor": {
             "r": 1,
@@ -285,6 +351,38 @@
           "audioName": "NONE",
           "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
           "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2}! just like we practiced it.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_TeamPilot_Random_1",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Wilco, {MC.PlayerLances.TeamPilot_Random_1} Let's do this.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         }
@@ -443,7 +541,7 @@
         "name": "Lance_Enemy",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lancedef_mechONLY_dynamic_taurian"],
+          "items": ["lancedef_KOTU_mech_dynamic_taurian"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {

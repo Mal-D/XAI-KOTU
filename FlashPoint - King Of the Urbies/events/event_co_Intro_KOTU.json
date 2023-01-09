@@ -19,7 +19,8 @@
 				"fp_KOTU_Ready",
 				"fp_KOTU_cancel",
 				"fp_KOTU_intro_cancel",
-				"fe_event_Load_KOTU_cancel"
+				"fe_event_Load_KOTU_cancel",
+				"flashpoint_KOTU_complete"
 			],
 			"tagSetSourceFile": ""
 		},

@@ -1035,16 +1035,6 @@
                     "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "System_PauseNotification",
-                            "value" : "Duel Results - fp_KOTU_WonDuel",
-                            "valueConstant" : null,
-                            "additionalValues" : 
-                            [
-                            "That was a tough one Boss.",
-                            "castDef_SurmireDefault"
-                            ]
-                        },
-                        {
                             "Type" : "System_StartConversation",
                             "value" : "9ceb8128583ad85a77699112",
                             "valueConstant" : null,
@@ -1092,16 +1082,7 @@
                     },
                     "Stats" : null,
                     "Actions" : [
-                        {
-                            "Type" : "System_PauseNotification",
-                            "value" : "Duel Results - fp_KOTU_LostDuel",
-                            "valueConstant" : null,
-                            "additionalValues" : 
-                            [
-                            "Damn, that was unexpected",
-                            "castDef_SurmireDefault"
-                            ]
-                        },
+                        
                         {
                             "Type" : "System_StartConversation",
                             "value" : "9ceb8128583ad85a77699112",
@@ -1354,7 +1335,16 @@
                         "items" : [
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao"
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -1411,14 +1401,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "500000",
+                            "value" : "200000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "-2",
+                            "value" : "-3",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1473,7 +1463,16 @@
                         "items" : [
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao"
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -1530,14 +1529,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "200000",
+                            "value" : "500000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "-1",
+                            "value" : "-2",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1592,7 +1591,16 @@
                         "items" : [
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao"
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -1649,14 +1657,14 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "700000",
+                            "value" : "1500000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "1",
+                            "value" : "3",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1711,8 +1719,17 @@
                         "items" : [
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao",
-                            "fp_mackieDestroyed"
+                            "fp_mackieDestroyed",
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -1768,14 +1785,21 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "1500000",
+                            "value" : "2500000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "2",
+                            "value" : "5",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.TaurianConcordat",
+                            "value" : "20",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -1828,10 +1852,20 @@
                     },
                     "RemovedTags" : {
                         "items" : [
+                            "fp_mackieDestroyed",
+                            "fp_Assassinated",
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao",
-                            "fp_mackieDestroyed"
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -1951,10 +1985,19 @@
                     },
                     "RemovedTags" : {
                         "items" : [
+                            "fp_mackieDestroyed",
                             "fp_killedSup_1",
                             "fp_killedSup_2",
-                            "fp_killedZhao",
-                            "fp_mackieDestroyed"
+                            "fp_ZhaoEscapes",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_forceFinal_off",
+                            "fp_KOTU_forceFinal_on",
+                            "fp_KOTU_LostDuel",
+                            "fp_KOTU_WonDuel",
+                            "fp_KOTU_continue",
+                            "fp_KOTU_Ready",
+                            "fp_KOTU_intro_cancel"
                         ],
                         "tagSetSourceFile" : ""
                     },

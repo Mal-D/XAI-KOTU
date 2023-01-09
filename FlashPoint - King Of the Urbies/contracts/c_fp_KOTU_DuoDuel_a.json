@@ -59,9 +59,9 @@
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": 120,
+  "lanceMaxTonnage": 80,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [55, 55, -1, -1],
+  "mechMaxTonnages": [40, 40, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -124,7 +124,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ready up, Commander.",
+          "words": "Ready up, Commander. At least he's on time.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -148,6 +148,38 @@
             "a": 1
           },
           "selectedCastDefId": "castDef_DariusDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "You called it Commander. Sensors are picking up at least one Assault Class fusion and Seismic signature.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_FarahDefault",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "True colours showing though, hey Junior?",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -245,7 +277,23 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "It may no be <B>MY</B> </i>Mackie</i> but 'twill still be sufficient to remove you from my sight.",
+          "words": "Couldn't help yourself could you Junior? ",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+          "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "It may not be <B>MY</B> </i>Mackie</i> but 'twill still be sufficient to remove you from my sight.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -259,7 +307,8 @@
           "cameraDistance": "Close",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },{
+        },
+        {
           "words": "I will be the 'King of these Urbies' and you will never see your money again.",
           "wordsColor": {
             "r": 1,
@@ -274,7 +323,8 @@
           "cameraDistance": "Close",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },{
+        },
+        {
           "words": "Come on Junior, let's not play these school yard games. There are no safety nets here. All battle safeties are disabled.",
           "wordsColor": {
             "r": 1,
@@ -289,7 +339,8 @@
           "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
-        },{
+        },
+        {
           "words": "My name IS NOT <i>JUNIOR!</i> I am destined for greater things than this. This is just the beginning.",
           "wordsColor": {
             "r": 1,
@@ -302,6 +353,33 @@
           "audioName": "NONE",
           "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
           "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2}! just like we practiced it.",
+          "wordsColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "selectedCastDefId": "castDef_Commander",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Follow {MC.PlayerLances.TeamPilot_Random_2}'s lead.",
+          "wordsColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+          "selectedCastDefId": "castDef_Commander",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         }

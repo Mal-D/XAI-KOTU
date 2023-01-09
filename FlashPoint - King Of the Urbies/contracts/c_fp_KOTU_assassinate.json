@@ -16,39 +16,7 @@
     "salvagePotential" : 8,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
-    "OnContractFailureResults" : [{
-        "Scope" : "Company",
-        "Requirements" : null,
-        "AddedTags" : {
-            "items" : 
-                ["fp_ZhaoEscapes"],
-            "tagSetSourceFile" : ""
-        },
-        "RemovedTags" : {
-            "items" : [],
-            "tagSetSourceFile" : ""
-        },
-        "Stats" : [ 
-                {
-                "typeString": "System.Int32",
-                "name": "FailCount",
-                "value": "1",
-                "set": false,
-                "valueConstant": "1"
-                },
-                {
-                "typeString": "System.Int32",
-                "name": "MackieCount",
-                "value": "0",
-                "set": true,
-                "valueConstant": "0"
-                }
-        ],
-        "Actions" : [],
-        "ForceEvents" : [],
-        "TemporaryResult" : false,
-        "ResultDuration" : 0
-    }],
+    "OnContractFailureResults" : [],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
@@ -196,8 +164,7 @@
                     "AddedTags" : {
                         "items" : 
 							[
-                            "fp_Assassinated",
-						    "fp_killedZhao"
+                            "fp_Assassinated"
 							],
                         "tagSetSourceFile" : ""
                     },
@@ -247,13 +214,6 @@
                             "value": "1",
                             "set": false,
                             "valueConstant": "1"
-                            },
-                            {
-                            "typeString": "System.Int32",
-                            "name": "MackieCount",
-                            "value": "0",
-                            "set": true,
-                            "valueConstant": "0"
                             }
                     ],
                     "Actions" : [],

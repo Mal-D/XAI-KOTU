@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_SoloDuel_Zhao",
-  "contractName": "Johannas Zhao's final Lesson",
+  "contractName": "Johannas Zhao's Duel....",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -88,7 +88,7 @@
         "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
       },
       "title": "Take the Pirate Down",
-      "description": "",
+      "description": "Take out Johannas Zhao",
       "isPrimary": true,
       "forPlayer": "Player1",
       "objectiveGuids": ["a0b9c5b2-c594-4c5a-be1d-028a51c51519"]
@@ -107,7 +107,7 @@
         "EncounterObjectGuid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
       },
       "title": "Destroy or Disable the Mackie",
-      "description": "",
+      "description": "Disable preferably",
       "isPrimary": true,
       "OnSuccessResults" : [{
         "Scope": "Company",
@@ -166,7 +166,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "There he is Commander. Good luck.",
+          "words": "There he is. Good luck.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -205,7 +205,7 @@
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_FarahDefault",
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -230,14 +230,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Hit him hard Commander. I don't think Zhao knows the danger he's in.",
+          "words": "Okay just like we practiced it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_DariusDefault",
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -424,7 +424,7 @@
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_FarahDefault",
+          "selectedCastDefId": "castDef_TeamPilot_Position_1",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -433,7 +433,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Enough talk!! Commander, Prepare yourself.",
+          "words": "Enough talk!! {MC.PlayerLances.TeamPilot_Position_1}, Prepare yourself.",
           "wordsColor": {
             "r": 1,
             "g": 1,
