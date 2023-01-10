@@ -2,7 +2,7 @@
     "Name": "FlashPoint_KOTU",
     "Enabled": true,
 	"Version": "XAI-KOTU-2.0.1-PreRelease",
-    "Author": "MalD",
+    "Author": "MalD and Xeryx",
 
 	"DependsOn": [ "XAI", "XAI Battle Pack 3025", "ExtendedConversations", "Mission Control" ],
 	"OptionallyDependsOn": [ "ColourfulFlashPoints" ],
