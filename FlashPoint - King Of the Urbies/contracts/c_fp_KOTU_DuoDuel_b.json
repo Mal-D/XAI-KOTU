@@ -552,7 +552,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -576,7 +576,7 @@
               "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "pilot_npc_d4",
             "pilotTagSet": {
               "items": [],
               "tagSetSourceFile": "tags/PilotTags"
