@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_DuoDuel_b",
-  "contractName": "Henry's Betrayal - b..a",
+  "contractName": "Henry's Betrayal.",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -13,7 +13,7 @@
   "goodFaithStatementOverride": null,
   "shortDescription": "I'm finding it hard to take this serious. Why the {TEAM_TAR.FactionDef.Demonym} would even consider this action. There has to be another reason. Either way, we're stuck in a duel with two apparent {TEAM_TAR.FactionDef.Demonym} Pirates. How did Toppletiff even manage to mask this.",
   "longDescription": "We'll need to make sure this action is quick and decisive. Looks like the MRB have sanctioned the action and are holding access to our accounts depending on the outcome. Be careful Commander.",
-  "salvagePotential": 4,
+  "salvagePotential": 8,
   "requirementList": [],
   "OnContractSuccessResults": 
   [
@@ -58,9 +58,9 @@
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 2,
   "lanceMinTonnage": -1,
-  "lanceMaxTonnage": 80,
+  "lanceMaxTonnage": 100,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [40, 40, -1, -1],
+  "mechMaxTonnages": [-1, -1, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -401,8 +401,8 @@
   "useTravelCostPenalty": false,
   "usesExpiration": false,
   "expirationTimeOverride": -1,
-  "negotiatedSalary": 1,
-  "negotiatedSalvage": 0.5,
+  "negotiatedSalary": 0.75,
+  "negotiatedSalvage": 0.25,
   "excludedFromProceduralGeneration": true,
   "player1Team": {
     "encounterLayerData": {
@@ -539,9 +539,9 @@
           "EncounterObjectGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
         },
         "name": "Lance_Enemy",
-        "lanceDefId": "Tagged",
+        "lanceDefId": "lancedef_mech_dynamic_taurian_kotu",
         "lanceTagSet": {
-          "items": ["lancedef_KOTU_mech_dynamic_taurian"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -573,7 +573,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilotDef_InheritLance",
@@ -606,7 +606,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilotDef_InheritLance",
