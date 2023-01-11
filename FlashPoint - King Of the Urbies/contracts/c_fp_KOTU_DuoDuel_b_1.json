@@ -355,14 +355,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2}! just like we practiced it.",
+          "words": "Eyes front and keep your spacing.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamPilot_Random_1",
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -371,14 +371,14 @@
           "revealRadius": -1
         },
         {
-          "words": "Wilco, {MC.PlayerLances.TeamPilot_Random_1} Let's do this.",
+          "words": "Wilco, {MC.Commander.DisplayName}! Let's do this like we practiced.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamPilot_Random_2",
+          "selectedCastDefId": "castDef_TeamPilot_Random_1",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",

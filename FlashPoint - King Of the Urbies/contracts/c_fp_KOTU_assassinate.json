@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_KOTU_assassinate",
-    "contractName" : "Death to the Usurper - 4",
+    "contractName" : "Remove the Snake's Head",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 6,
     "difficultyUIModifier" : 0,
@@ -751,7 +751,7 @@
     "extractionOverrideList" : [],
     "overwriteMissionCompleteWhenAutoComplete" : false,
     "overrideAutoCompleteDialogueId" : "",
-    "disableNegotations" : false,
+    "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
     "disableAfterAction" : false,
@@ -760,7 +760,7 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
+    "negotiatedSalary" : 0,
     "negotiatedSalvage" : 0,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {

@@ -1,9 +1,9 @@
 {
     "ID" : "faction_ToppletiffHoldings",
-    "Name" : "Toppletiff Holdings..",
+    "Name" : "Toppletiff Holdings",
     "ShortName" : "T.H",
     "Description" : "An Import/Export company, smaller than it thinks but bigger than it should be. Magnus Toppletiff and family, run a shady fencing operation, skirting the line between respectability and piracy. Lately his errant son has becoming something of a nuisance issuing challages to duel over the silliest of reasons - Training he calls it.",
-    "Demonym" : "T.H",
+    "Demonym" : "T.Holdings",
     "Government" : "",
     "Allies" : [],
     "Enemies" : [],
@@ -18,13 +18,13 @@
         "If it's payment you want, then deliver as per the contract..."
     ],
     "MissionSuccessStatements" : [ 
-		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+		"At least we got what we paid for. Keep it up Commander {Commander.LastName}."
     ], 
 	"GoodFaithFailureStatements" : [ 
-		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+		"No Prize for second place in this business, I expected better things. Commander {Commander.LastName} You need more practice."
     ],
 	"BadFaithFailureStatements" : [ 
-		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+		"What debacle and for someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and it wont take long for this failure to be noticed."
     ],
 	"DefaultCombatLeaderCastDefId" : "castDef_henryT",
     "DefaultRepresentativeCastDefId" : "castDef_magnusT",

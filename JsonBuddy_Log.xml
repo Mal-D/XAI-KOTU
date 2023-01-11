@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <log>
 
-  <batch_unit time="01/09/23 08:14:28">
+  <batch_unit time="01/10/23 19:02:35">
     <folder path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies" subfolders="true"/>
     <xmlspyproject/>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\cast\castDef_Computer.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\cast\castDef_henryT.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\cast\castDef_hillaryT.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\cast\castDef_johannasZ.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\cast\castDef_magnusT.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_assassinate.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_DuoDuel_a.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_DuoDuel_a_1.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_DuoDuel_b.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_DuoDuel_b_1.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\contracts\c_fp_KOTU_SoloDuel_Zhao.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\conversationBuckets\DialogBucketDef_c_fp_KOTU_a1_assassinate.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\conversationBuckets\DialogBucketDef_c_fp_KOTU_a1_sup1_killed.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\conversationBuckets\DialogBucketDef_c_fp_KOTU_a1_sup2_killed.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\dialogue_buckets\Bkt_c_fp_KOTU_a1_assassinate.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\dialogue_buckets\Bkt_c_fp_KOTU_a1_sup1_killed.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\dialogue_buckets\Bkt_c_fp_KOTU_a1_sup2_killed.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\enums\Faction.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\events\event_co_Intro_KOTU.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\events\fe_event_Load_KOTU.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\events\fp_KOTU_forceFinal.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\events\Mals_convoChecker.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\events\Mals_lootChecker.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\factions\faction_FlakJackals_alt.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\factions\faction_ToppletiffHoldings.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\flashpoints\fp_KOTU.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\heraldry\heraldrydef_flackJackals_Alt.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\heraldry\heraldrydef_Toppletiff.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lances\lancedef_mech_d6_AL_LightMedScout.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lances\lancedef_mech_d6_URBIE.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lances\lancedef_mech_dynamic_taurian_kotu.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lore\LoreNoteputer.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lore\LoreTDF.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lore\LoreTheNewFlakJackals.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\lore\LoreTMI.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\milestoneSets\ms_fp_KOTU.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\mod.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\modstate.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\newChassis\chassisdef_mackie_MSK-X10.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\newMech\mechdef_mackie_MSK-X10.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\pilot\pilot_johannasZ.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\simGameStatDesc\SimGameStatDesc_FailCount.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\simGameStatDesc\SimGameStatDesc_MackieCount.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\castDef_Commander.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\chassis\chassisdef_mackie_MSK-10.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\chassis\chassisdef_mackie_MSK-10X.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\Contracts\c_fp_KOTU_DueDuel.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\Contracts\c_fp_KOTU_SoloDuel_withSon.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\DuoDuel_DoubleTrouble.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\events\fe_KUTO_forceContract.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\events\fe_KUTO_forceDuel_a.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\events\fe_KUTO_forceDuel_b.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\events\fe_ODS2_launch_forceContract.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\fp_KUTO_forceFinal.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\lancedef_mechONLY_dynamic_taurian.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\Mals_convoChecker.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\Mals_lootChecker.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Contracts\c_fp_kingOfUrbies_assassinate_old.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Contracts\c_fp_KOTU_assassinate.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Contracts\c_fp_KOTU_SoloDuel_withSon.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\DMG_URBANMECH_LANCE.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Generic_Taurian_Lance.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Lances\Generic_Taurian_BattleLance.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Lances\Generic_Taurian_Lance.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\MC_STuff\Lances\lancedef_KOTU_Urbie_1.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\mech\mechdef_mackie_MSK-10.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\mech\mechdef_mackie_MSK-10X.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
+    <file done="true" path="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies\__TestObjects\pilot_johannasZ.json" time="01/10/23 19:02:35" well_formed="true">
+      <general></general>
+    </file>
   </batch_unit>
 
 </log>

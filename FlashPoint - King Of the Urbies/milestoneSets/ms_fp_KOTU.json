@@ -106,6 +106,57 @@
                 "ForceEvents" : null,
                 "TemporaryResult" : false,
                 "ResultDuration" : 0
+                },
+                {"Scope" : "Company",
+                "Requirements" : {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : 
+                        [
+                            {
+                            "obj": "FailCount",
+                            "op": "Equal",
+                            "val": 3,
+                            "valueConstant": "3"
+                            }
+                        ]
+                },
+                "AddedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RemovedTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "Stats" :[],
+                "Actions" :[
+                    {
+                        "Type" : "System_PauseNotification",
+                        "value" : "Next stop 003_EarlyCancel",
+                        "valueConstant" : null,
+                        "additionalValues" : [
+                            "Failed Too Many Times.",
+                            "castDef_YangDefault"
+                        ]
+                    },
+                    {
+                        "Type" : "Flashpoint_SetNextMilestone",
+                        "value" : "ms_fp_KOTU_003_EarlyCancel",
+                        "valueConstant" : null,
+                        "additionalValues" : null
+                    }
+                ],
+                "ForceEvents" : null,
+                "TemporaryResult" : false,
+                "ResultDuration" : 0
                 }
             ],
             "Repeatable" : false,
@@ -121,7 +172,7 @@
             "Requirements" : [],
             "Results" : [
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -156,7 +207,7 @@
                     "ResultDuration" : 0
                 },     
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -182,7 +233,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : ["fp_KOTU_continue_duel","fp_KOTU_continue"],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : [],
@@ -208,7 +259,7 @@
                     "ResultDuration" : 0
                 },      
                 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
