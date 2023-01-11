@@ -73,7 +73,12 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "RequirementComparisons" : []
+                    "RequirementComparisons" : [{
+                        "obj": "FailCount",
+                        "op": "NotEqual",
+                        "val": 3,
+                        "valueConstant": "3"
+                        }]
                 },
                 "AddedTags" : {
                     "items" : [],
@@ -138,18 +143,10 @@
                 },
                 "Stats" :[],
                 "Actions" :[
-                    {
-                        "Type" : "System_PauseNotification",
-                        "value" : "Next stop 003_EarlyCancel",
-                        "valueConstant" : null,
-                        "additionalValues" : [
-                            "Failed Too Many Times.",
-                            "castDef_YangDefault"
-                        ]
-                    },
+
                     {
                         "Type" : "Flashpoint_SetNextMilestone",
-                        "value" : "ms_fp_KOTU_003_EarlyCancel",
+                        "value" : "ms_fp_KOTU_800_Cancel",
                         "valueConstant" : null,
                         "additionalValues" : null
                     }
@@ -198,58 +195,6 @@
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_KOTU_900_CancelFail",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                },     
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : 
-                        [
-                            {
-                                "obj": "FailCount",
-                                "op": "Equal",
-                                "val": 3,
-                                "valueConstant": "3"
-                            }
-                        ]
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : ["fp_KOTU_continue_duel","fp_KOTU_continue"],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [],
-                    "Actions" : [
-                        {
-                            "Type" : "System_PauseNotification",
-                            "value" : "Let's get out of this shit show.",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "Failed Too Many Times.",
-                                "castDef_YangDefault"
-                            ]
-                        },
-                        {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_KOTU_800_Cancel",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -343,8 +288,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -386,8 +330,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -467,15 +410,7 @@
                     },
                     "Stats" : null,
                     "Actions" : [
-                        {
-                            "Type" : "System_PauseNotification",
-                            "value" : "005_Branch BigBattle",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "005_Branch",
-                                "castDef_DariusDefault"
-                            ]
-                        },
+                        
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_KOTU_100_Setup",
@@ -514,10 +449,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "005_Branch Zhao Duel.",
+                            "value" : "Zhao Duel.",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "005_Branch Zhao Duel",
+                                "I'd watch him that big gun will hurt.",
                                 "castDef_YangDefault"
                             ]
                         },
@@ -557,15 +492,7 @@
                     },
                     "Stats" : null,
                     "Actions" : [
-                        {
-                            "Type" : "System_PauseNotification",
-                            "value" : "fp_KOTU_cancel",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "We're Outta Here",
-                                "castDef_SurmireDefault"
-                            ]
-                        },
+                        
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_KOTU_800_Cancel",
@@ -618,10 +545,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "100_Setup - UrbieFest",
+                            "value" : "Urbie Fest",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "It's an Urbie Fest.",
+                                "Yay! It's an Urbie Fest.",
                                 "castDef_YangDefault"
                             ]
                         },
@@ -757,10 +684,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "200_Setup - Snake, rattle and roll.",
+                            "value" : "Snake, rattle and roll.",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "It's Duelin' time - Snake, rattle and roll.",
+                                "It's Duelin' time",
                                 "castDef_YangDefault"
                             ]
                         },
@@ -1916,12 +1843,23 @@
                             "fp_KOTU_WonDuel",
                             "fp_KOTU_continue",
                             "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
+                            "fp_KOTU_intro_cancel",
+                            "fp_KOTU_continue_duel",
+                            "fp_KOTU_continue"
                         ],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
                     "Actions" : [
+                        {
+                            "Type" : "System_PauseNotification",
+                            "value" : "Completeing Flashpoint",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "Failed Too Many Times. Lets Clean up and leave.",
+                                "CastDef_Sumire_Default"
+                            ]
+                        },
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
                             "value" : "ms_fp_KOTU_801_CancelFail",

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batch_settings>
+
+  <batch_units>
+    <log_document path="D:\BattleTech-GitDev\XAI-KOTU\JsonBuddy_Log.xml"/>
+    <options cache_grammars="true" close_logdoc="false" error_limit="-1" log_use_xinclude="false" log_valid="true" notify_finish="false" omit_results="false" omit_time="false" run_as_test="false" save_logdoc="true" timeout="-1" use_xmldate_format="false"/>
+    <batch_unit type="json_syntax_check">
+      <folder_settings folder="D:\BattleTech-GitDev\XAI-KOTU\Flashpoint - King of the Urbies" subfolders="true"/>
+      <file_extensions>
+        <extension>json</extension>
+      </file_extensions>
+      <parameters check-duplicate-properties="true"/>
+    </batch_unit>
+  </batch_units>
+
+</batch_settings>

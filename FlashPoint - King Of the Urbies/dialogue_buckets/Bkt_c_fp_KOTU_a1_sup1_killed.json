@@ -1,22 +1,7 @@
 {
     "identifier" : "Bkt_c_fp_KOTU_a1_sup1_killed",
     "contents" : [
-		{
-			"words" : "Father No! That's not what we hired them to do. They are destorying my Heritage.",
-			"wordsColor" : {
-				"r" : 1,
-				"g" : 1,
-				"b" : 1,
-				"a" : 1
-			},
-			"selectedCastDefId" : "castDef_henryT",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
-		},
+		
 		{
 			"words" : "Dropped him! Well done Commander! Get our lance to the evac zone and come on home.",
 			"wordsColor" : {
@@ -34,7 +19,7 @@
 			"revealRadius" : -1
 		},
 		{
-            "words" : "FATHER STOP THEM!! Our Mackies! We will never be able to replace these ancient artifacts. Did they sign the Contract - all of it?",
+            "words" : "FATHER STOP THEM!! Our Mackies! We will never be able to replace these ancient artifacts.",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
@@ -66,23 +51,7 @@
 			"revealRadius" : -1
         },
 		{
-			"words" : "The New Flak Jackals are not wanting to relive their past. I suggest you let us get on with the job at hand and settle this later. At least you have those who robbed you at heel. Extract what retribution you want but, leave the fighting here to the grown ups.",
-			"wordsColor" : {
-				"r" : 1,
-				"g" : 1,
-				"b" : 1,
-				"a" : 1
-			},
-			"selectedCastDefId" : "castDef_DariusDefault",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
-		},
-		{
-            "words" : "You Blundering fools! These priceless 'Mech were entrusted to our safekeeping. Our reputation along with yours will suffer Commander. You will be sued and suffer severe consequences for this breach of Contract.",
+            "words" : "You Blundering fools! These priceless 'Mech were entrusted to our safekeeping.",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
@@ -98,23 +67,7 @@
 			"revealRadius" : -1
         },
 		{
-            "words" : "I suggest you will want a second opinion on that Toppletiff.  Who do you think the wider Mercenary crowd will believe? Try to get a contact filled if you do and see where that gets you.",
-            "wordsColor" : {
-                "r" : 1,
-                "g" : 1,
-                "b" : 1,
-                "a" : 1
-            },
-            "selectedCastDefId" : "castDef_DariusDefault",
-			"emote" : "Default",
-			"audioName" : "NONE",
-			"cameraFocusGuid" : "",
-			"cameraDistance" : "Far",
-			"cameraHeight" : "Default",
-			"revealRadius" : -1
-        },
-		{
-            "words" : "Pillock! We should let Zhao know it was tipplestiff who led us to him. I'm sure he would like to tie up that loose end. hummm ?",
+            "words" : "Pillock! We should let Zhao know it was tipplestiff who led us to him.",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
