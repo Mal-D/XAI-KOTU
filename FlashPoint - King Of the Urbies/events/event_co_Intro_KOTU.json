@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_KOTU.png"
 	},
 	"Scope": "Company",
-	"Weight": 100,
+	"Weight": 10000,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {

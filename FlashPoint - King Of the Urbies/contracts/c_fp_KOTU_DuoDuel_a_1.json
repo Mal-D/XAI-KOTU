@@ -389,7 +389,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2}! just like we practiced it.",
+          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2.DisplayName}! just like we practiced it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
