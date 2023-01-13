@@ -98,7 +98,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "953a5930-06d0-4a2d-9840-e9a70c2a63ea"
       },
-      "enableChunkFromContract": false
+      "enableChunkFromContract": true
     }
   ],
   "objectiveList": [
@@ -230,7 +230,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay just like we practiced it.",
+          "words": "Okay, just like we practiced it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -417,7 +417,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Johannas, are you sure you don't want to check your Armo...",
+          "words": "Mackie Pilot, are you sure you don't want to check your Armo...",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -433,7 +433,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Enough talk!! {MC.PlayerLances.TeamPilot_Position_1}, Prepare yourself.",
+          "words": "Enough talk!! Prepare yourself.",
           "wordsColor": {
             "r": 1,
             "g": 1,

@@ -11,7 +11,7 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": ["flashpoint_headhunting_complete"],
-			"tagSetSourceFile": ""
+			"tagSetSourceFile": "tags/CompanyTags"
 		},
 		"ExclusionTags": {
 			"items": [
