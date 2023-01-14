@@ -60,7 +60,7 @@
   "lanceMinTonnage": -1,
   "lanceMaxTonnage": 100,
   "mechMinTonnages": [-1, -1, -1, -1],
-  "mechMaxTonnages": [-1, -1, -1, -1],
+  "mechMaxTonnages": [55, 55, -1, -1],
   "mapMood": null,
   "startingFogOfWarVisibility": "Surveyed",
   "contractObjectiveList": [
@@ -402,7 +402,7 @@
   "usesExpiration": false,
   "expirationTimeOverride": -1,
   "negotiatedSalary": 0,
-  "negotiatedSalvage": 0,
+  "negotiatedSalvage": 1,
   "excludedFromProceduralGeneration": true,
   "player1Team": {
     "encounterLayerData": {

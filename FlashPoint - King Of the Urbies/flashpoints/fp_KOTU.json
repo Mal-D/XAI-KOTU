@@ -54,7 +54,7 @@
     "RewardCollectionID" : null,
     "UnitDropTonnageHint" : "Heavy",
     "LanceDropTonnageHint" : "Heavy",
-    "FlashpointShortDescription" : "\u00A230 Million REWARD! My Family has suffered the most egregious insult. The tumerity of it all! <i>Our Family!</i> A band of miscreants has defiled our most sacred inner sanctum. This must be addressed. Don't respond if you are expecting an easy score.",
+    "FlashpointShortDescription" : "\u00A210 Million REWARD! My Family has suffered the most egregious insult. The tumerity of it all! <i>Our Family!</i> A band of miscreants has defiled our most sacred inner sanctum. This must be addressed. Don't respond if you are expecting an easy score.",
     "FlashpointDescriberCastDefId" : "castDef_magnusT",
     "Tags" : {
         "items" : ["BLACKLISTED"],

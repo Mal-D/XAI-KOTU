@@ -761,7 +761,7 @@
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
     "negotiatedSalary" : 0,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalvage" : 1,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
