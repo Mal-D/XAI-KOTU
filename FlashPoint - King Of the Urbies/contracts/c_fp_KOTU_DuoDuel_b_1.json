@@ -1,5 +1,5 @@
 {
-  "ID": "c_fp_KOTU_DuoDuel_b",
+  "ID": "c_fp_KOTU_DuoDuel_b_1",
   "contractName": "Henry's Betrayal.",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
@@ -394,7 +394,7 @@
   "overrideAutoCompleteDialogueId": null,
   "disableNegotations": true,
   "disableLanceConfiguration": false,
-  "disableCancelButton": true,
+  "disableCancelButton": false,
   "disableAfterAction": false,
   "contractRewardOverride": -1,
   "travelOnly": false,

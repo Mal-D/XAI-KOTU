@@ -41,7 +41,7 @@ Support will be dependent upon youhaving the correct Versions of the above Mods.
 
 # Installation Directions
 
-The installation archive will be named XAI-KOTU-[Version or Release] - currently XAI-KOTU-2.0.1-PreRelease. The Archive will contain the following folders
+The installation archive will be named XAI-KOTU-[Version or Release] - currently XAI-KOTU-2.0.2-PreRelease. The Archive will contain the following folders
 
   1. ColourfulFlashpoints    
   2. MissionControl    

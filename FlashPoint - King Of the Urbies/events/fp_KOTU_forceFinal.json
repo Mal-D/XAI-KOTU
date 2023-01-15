@@ -27,7 +27,7 @@
         {
             "Description" : {
                 "Id" : "outcome_0",
-                "Name" : "Time to go - Duel_a",
+                "Name" : "Time to go.",
                 "Details" : "Whatever we have Yang - let's go.",
                 "Icon" : null
             },
@@ -70,6 +70,7 @@
                             },
                             "Stats" : null,
                             "Actions" : [
+                                
                                 {
                                     "Type" : "Flashpoint_StartContract",
                                     "value" : "mapGeneral_cityCenter_uTech",
@@ -163,12 +164,13 @@
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
-                            "Actions" : [
+                            "Actions" : 
+                                [
                                 {
                                     "Type" : "Flashpoint_StartContract",
                                     "value" : "mapStory_StoryEncounter9_vHigh",
-                            "valueConstant" : null,
-                            "additionalValues" : 
+                                    "valueConstant" : null,
+                                    "additionalValues" : 
                                 [
                                     "",
                                     "3c5ba39d-2afa-49d5-a279-299abd0df880",
@@ -183,7 +185,8 @@
                                     null,
                                     null
                                 ]
-                                },{
+                                },
+                                {
                                     "Type" : "System_ResetContracts",
                                     "value" : "c_fp_KOTU_DuoDuel_b",
                                     "valueConstant" : null,

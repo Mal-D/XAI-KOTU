@@ -293,7 +293,7 @@
           "revealRadius": -1
         },
         {
-          "words": "It may not be <B>MY</B> </i>Mackie</i> but 'twill still be sufficient to remove you from my sight.",
+          "words": "It may not be my Mackie but 'twill still be sufficient to remove you from my sight.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -570,7 +570,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [["spawn_poorly_maintained_50"]],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilot_d4_gunner",
@@ -603,7 +603,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [["spawn_poorly_maintained_50"]],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilot_d5_gunner",

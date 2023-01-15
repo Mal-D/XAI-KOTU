@@ -1,5 +1,5 @@
 {
-  "ID": "c_fp_KOTU_DuoDuel_a",
+  "ID": "c_fp_KOTU_DuoDuel_a_1",
   "contractName": "Henry's Betrayal - a",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
@@ -268,14 +268,14 @@
           "revealRadius": -1
         },
         {
-          "words": "A Pyrrhic victory only {MC.Commander.DisplayName}.",
+          "words": "A Pyrrhic victory only.",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamPilot_Position_2",
+          "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -293,7 +293,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Wilco, {MC.Commander.DisplayName}. Let's do this.",
+          "words": "Okay {MC.Commander.DisplayName}. How do you want to do this? It's still a dangerous bastard.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -325,7 +325,7 @@
           "revealRadius": -1
         },
         {
-          "words": "It may not be <B>MY</B> </i>Mackie</i> but 'twill still be sufficient to remove you from my sight.",
+          "words": "It may not be my Mackie but 'twill still be sufficient to remove you from my sight.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -389,7 +389,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2.DisplayName}! just like we practiced it.",
+          "words": "Okay {MC.PlayerLances.TeamPilot_Position_2.DisplayName}, he big and slow so, use the terrain just like we practiced it.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -428,7 +428,7 @@
   "overrideAutoCompleteDialogueId": null,
   "disableNegotations": true,
   "disableLanceConfiguration": false,
-  "disableCancelButton": true,
+  "disableCancelButton": false,
   "disableAfterAction": false,
   "contractRewardOverride": -1,
   "travelOnly": false,
@@ -607,7 +607,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [["spawn_poorly_maintained_50"]],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilot_d4_gunner",
@@ -640,7 +640,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
-              "items": [["spawn_poorly_maintained_50"]],
+              "items": ["spawn_poorly_maintained_50"],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
             "pilotDefId": "pilot_d5_gunner",

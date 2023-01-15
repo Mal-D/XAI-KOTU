@@ -45,7 +45,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -418,7 +418,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
@@ -447,15 +447,7 @@
                     },
                     "Stats" : null,
                     "Actions" : [
-                        {
-                            "Type" : "System_PauseNotification",
-                            "value" : "Zhao Duel.",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "I'd watch him that big gun will hurt.",
-                                "castDef_YangDefault"
-                            ]
-                        },
+                        
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_KOTU_200_Setup",
@@ -463,7 +455,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
@@ -500,7 +492,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -559,7 +551,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -636,9 +628,7 @@
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Contract",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
+                            "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
                     "ForceEvents" : null,
@@ -698,7 +688,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -766,9 +756,7 @@
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Contract",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
+                            "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
                     "ForceEvents" : null,
@@ -818,7 +806,7 @@
                             "value" : "9c1a675a313324de25bc7600",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name} III",
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
                                 "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
@@ -871,6 +859,7 @@
                     },
                     "Stats" : [],
                     "Actions" : [
+                        
                         {"Type" : "Flashpoint_AddContract",
                             "value" : "mapStory_StoryEncounter9_vHigh",
                             "valueConstant" : null,
@@ -888,18 +877,15 @@
                                 null,
                                 null
                             ]
-                        },
+                        },                        
                         {
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Contract",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
+                            "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
-                    "ForceEvents" :
-                    [{
+                    "ForceEvents" :[{
                         "Scope" : "Company",
                         "EventID" : "fp_KOTU_forceFinal",
                         "MinDaysWait" : 5,
@@ -934,6 +920,7 @@
                     },
                     "Stats" : [],
                     "Actions" : [
+                            
                         {"Type" : "Flashpoint_AddContract",
                             "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
@@ -956,9 +943,7 @@
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Contract",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
+                            "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
                     "ForceEvents" : [{
@@ -1017,7 +1002,7 @@
                             "value" : "9ceb8128583ad85a77699112",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Epilogue - {TGT_FLASHPOINT.Def.Description.Name} II",
+                                "Epilogue - {TGT_FLASHPOINT.Def.Description.Name}",
                                 "Geostationary Orbit - Joramander \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
@@ -1857,7 +1842,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "Failed Too Many Times. Lets Clean up and leave.",
-                                "CastDef_Sumire_Default"
+                                "CastDef_SumireDefault"
                             ]
                         },
                         {
