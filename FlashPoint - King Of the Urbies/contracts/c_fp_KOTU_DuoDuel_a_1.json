@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_DuoDuel_a_1",
-  "contractName": "Henry's Betrayal - a",
+  "contractName": "Henry's Betrayal_a_1",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -293,34 +293,24 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Okay {MC.Commander.DisplayName}. How do you want to do this? It's still a dangerous bastard.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
-          "selectedCastDefId": "castDef_TeamPilot_Position_2",
-          "emote": "Default",
-          "audioName": "NONE",
-          "cameraFocusGuid": "",
-          "cameraDistance": "Far",
-          "cameraHeight": "Default",
-          "revealRadius": -1
-        },
-        {
-          "words": "Couldn't help yourself could you Junior? ",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
+          "words": "Just couldn't help yourself could you Junior? ",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
           "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
           "cameraDistance": "Close",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
+          "words": "Okay {MC.Commander.DisplayName}. Wasn't expecting this monster? It's a dangerous bastard!",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
           "cameraHeight": "Default",
           "revealRadius": -1
         },
@@ -389,13 +379,8 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay {MC.PlayerLances.TeamPilot_Position_2.DisplayName}, he big and slow so, use the terrain just like we practiced it.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
+          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2.DisplayName}, he's big and slow so, use the terrain just like we practiced it.",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
           "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
@@ -412,7 +397,7 @@
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamPilot_Position_2",
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -595,7 +580,7 @@
               "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
             },
             "customUnitName": "Junior",
-            "customHeraldryDefId": "heraldrydef_Toppletiff",
+            "customHeraldryDefId": "NewFlakJackals",
             "unitType": "Mech",
             "unitDefId": "mechdef_mackie_MSK-6S",
             "unitTagSet": {
@@ -627,8 +612,8 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
             },
-            "customUnitName": "City Guard",
-            "customHeraldryDefId": "heraldrydef_flackJackals_Alt",
+            "customUnitName": "New Jackal sycophant",
+            "customHeraldryDefId": "NewFlakJackals",
             "unitType": "Mech",
             "unitDefId": "mechdef_urbanmech_UM-R60S",
             "unitTagSet": {

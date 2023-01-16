@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_DuoDuel_b",
-  "contractName": "Henry's Betrayal",
+  "contractName": "Henry's Betrayal_b",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -378,7 +378,7 @@
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_TeamPilot_Position_2",
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -561,7 +561,7 @@
               "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
             },
             "customUnitName": "Junior",
-            "customHeraldryDefId": "",
+            "customHeraldryDefId": "heraldrydef_Toppletiff",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
@@ -593,8 +593,8 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
             },
-            "customUnitName": "Jackal Fanatic",
-            "customHeraldryDefId": "",
+            "customUnitName": "New Jackal sycophant",
+            "customHeraldryDefId": "heraldrydef_flackJackals_Alt",
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {

@@ -1,6 +1,6 @@
 {
   "ID": "c_fp_KOTU_DuoDuel_a",
-  "contractName": "Henry's Betrayal - a",
+  "contractName": "Henry's Betrayal_a",
   "contractDisplayStyle": "BaseFlashpoint",
   "difficulty": 6,
   "difficultyUIModifier": 0,
@@ -293,6 +293,17 @@
           "revealRadius": -1
         },
         {
+          "words": "Okay {MC.Commander.DisplayName}... wasn't expecting this monster? It's a dangerous bastard!",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
+          "emote": "Default",
+          "audioName": "NONE",
+          "cameraFocusGuid": "",
+          "cameraDistance": "Far",
+          "cameraHeight": "Default",
+          "revealRadius": -1
+        },
+        {
           "words": "It may not be my Mackie but 'twill still be sufficient to remove you from my sight.",
           "wordsColor": {
             "r": 1,
@@ -357,13 +368,8 @@
           "revealRadius": -1
         },
         {
-          "words": "Okay {MC.PlayerLances.TeamPilot_Random_2.DisplayName}! just like we practiced it.",
-          "wordsColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          },
+          "words": "Focus {MC.PlayerLances.TeamPilot_Random_2.DisplayName}, he's big and slow so, use the terrain just like we practiced it.",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
           "selectedCastDefId": "castDef_Commander",
           "emote": "Default",
           "audioName": "NONE",
@@ -373,9 +379,9 @@
           "revealRadius": -1
         },
         {
-          "words": "Follow {MC.PlayerLances.TeamPilot_Random_1.DisplayName}'s lead.",
-          "wordsColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
-          "selectedCastDefId": "castDef_DaruisDefault",
+          "words": "Roger {MC.Commander.DisplayName}! Just like we practiced it.",
+          "wordsColor": {"r": 1,"g": 1,"b": 1,"a": 1},
+          "selectedCastDefId": "castDef_TeamPilot_Random_2",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -590,7 +596,7 @@
             "unitSpawnPoint": {
               "EncounterObjectGuid": "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
             },
-            "customUnitName": "City Guard",
+            "customUnitName": "New Jackal sycophant",
             "customHeraldryDefId": "heraldrydef_flackJackals_Alt",
             "unitType": "Mech",
             "unitDefId": "mechdef_urbanmech_UM-R60S",
