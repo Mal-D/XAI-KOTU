@@ -850,7 +850,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : ["fp_KOTU_forceFinal_on"],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -860,7 +860,7 @@
                     "Stats" : [],
                     "Actions" : [
                         
-                        {"Type" : "Flashpoint_AddContract",
+                        {"Type" : "Flashpoint_StartContract",
                             "value" : "mapStory_StoryEncounter9_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
@@ -885,15 +885,7 @@
                             "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
-                    "ForceEvents" :[{
-                        "Scope" : "Company",
-                        "EventID" : "fp_KOTU_forceFinal",
-                        "MinDaysWait" : 5,
-                        "MaxDaysWait" : 5,
-                        "Probability" : 100,
-                        "RetainPilot" : false
-                    }] 
-                ,
+                    "ForceEvents" :[],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },                
@@ -911,7 +903,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : ["fp_KOTU_forceFinal_on"],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -946,14 +938,7 @@
                             "additionalValues" : ["BaseFlashpoint"]
                         }
                     ],
-                    "ForceEvents" : [{
-                        "Scope" : "Company",
-                        "EventID" : "fp_KOTU_forceFinal",
-                        "MinDaysWait" : 5,
-                        "MaxDaysWait" : 5,
-                        "Probability" : 100,
-                        "RetainPilot" : false
-                    }],
+                    "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -971,8 +956,7 @@
             "Scope" : "Company",
             "Requirements" : [],
             "Results" : [
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -1019,8 +1003,7 @@
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
-                {
-                    "Scope" : "Company",
+                {"Scope" : "Company",
                     "Requirements" : {
                         "Scope" : "Company",
                         "RequirementTags" : {
@@ -1295,20 +1278,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
                     "Stats" : null,
@@ -1423,20 +1393,7 @@
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
                     "Stats" : null,
@@ -1551,20 +1508,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
@@ -1679,21 +1623,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_mackieDestroyed",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
@@ -1814,31 +1744,14 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_mackieDestroyed",
-                            "fp_Assassinated",
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_continue"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
                     "Actions" : [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "Completeing Flashpoint",
+                            "value" : "Completing Flashpoint",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "Failed Too Many Times. Lets Clean up and leave.",
@@ -1958,21 +1871,7 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_mackieDestroyed",
-                            "fp_killedSup_1",
-                            "fp_killedSup_2",
-                            "fp_ZhaoEscapes",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_continue_duel",
-                            "fp_KOTU_forceFinal_off",
-                            "fp_KOTU_forceFinal_on",
-                            "fp_KOTU_LostDuel",
-                            "fp_KOTU_WonDuel",
-                            "fp_KOTU_continue",
-                            "fp_KOTU_Ready",
-                            "fp_KOTU_intro_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
