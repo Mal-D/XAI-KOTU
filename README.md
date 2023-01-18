@@ -25,7 +25,7 @@ The Flashpoint is dependent upon the following Mods:
 1. XAI 
 2. XAI Battle Pack 3025
 3. ModTek Minimum Version 2.0.7. The Flashpoint has been successfully developed and tested up to verssion 3.1.11
-4. ExtentededConversations 0.44(installed with XAI)
+4. ExtentededConversations 0.45(installed with XAI)
 5. MissionControl 1.5.1 (installed with XAI)
 
 and Optionally Dependant on
@@ -41,7 +41,7 @@ Support will be dependent upon youhaving the correct Versions of the above Mods.
 
 # Installation Directions
 
-The installation archive will be named XAI-KOTU-[Version or Release] - currently XAI-KOTU-2.0.3-PreRelease. The Archive will contain the following folders
+The installation archive will be named XAI-KOTU-[Version or Release] - currently XAI-KOTU-2.0.5-PreRelease. The Archive will contain the following folders
 
   1. ColourfulFlashpoints    
   2. MissionControl    
