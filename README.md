@@ -30,13 +30,21 @@ The Flashpoint is dependent upon the following Mods:
 
 and Optionally Dependant on
  
-1. ColourfulFlashpoints (installed with XAI)
+1. ColourfulFlashpoints - Player will need to download and extract ColourfulFlashpoints from Jamie Wolf's GitHub Public Repository. Use the following link :- https://github.com/wmtorode/ColourfulFlashPoints/releases/tag/1.0.1
+
+Download the zip file from GitHub and extract the contained ColourfulFlashpoints folder into Install by unzipping directly into   
+[your game installation drive]/Steam/Steamapps/Common/Battletech/Mods directory.
+
+This Mod by Jamie Wolf provides a visualization enhancement to make the Flashpoint stand out on the Navigation Screen. The Flashpoint will still load and run without it - this just helps find it when it activates.
+
+Please do this BEFORE you install the Flashpoint.
+
 
 # IMPORTANT 
 
-## Make sure you have the latest version of XAI - Currently 2.16 Dated 23 Dec 2022
+## Make sure you have the latest version of XAI - Currently 2.19 Dated 27 Jan 2023
 
-Support will be dependent upon youhaving the correct Versions of the above Mods.
+Support will be dependent upon you having the correct Versions of the above Mods.
 
 
 # Installation Directions
